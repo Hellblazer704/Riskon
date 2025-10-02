@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RISKON - Credit Risk Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- MathJax for clean LaTeX equations -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="antialiased">
+
+    <div id="landing-page">
+        <header class="fixed top-0 left-0 right-0 z-20 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-white">RISKON</h1>
+                <nav class="flex items-center gap-3">
+                    <button id="nav-methodology-btn" class="bg-white/10 hover:bg-white/20 text-white font-medium py-2 px-4 rounded-md border border-white/20 transition">Methodology</button>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero-section" class="h-[300vh] relative">
+                <div class="sticky top-0 h-screen flex items-center justify-center text-center overflow-hidden">
+                    <div class="absolute inset-0 z-0" id="hero-animation"></div>
+                    <div id="hero-text" class="relative z-10 p-4 opacity-0">
+                        <h2 class="text-5xl md:text-7xl font-bold text-white mb-4">The Future of Credit Intelligence</h2>
+                        <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">Bringing clarity and fairness to the complex world of credit risk assessment through dynamic, data-driven insights.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- "Journey of Data" Section -->
+            <section id="solution-section-container">
+                <div id="solution-steps">
+                    <!-- This will be populated by JavaScript -->
+                </div>
+                <div id="solution-viz-sticky-container">
+                    <div id="solution-viz"></div>
+                </div>
+            </section>
+
+            <section class="text-center py-20 bg-black">
+                <button id="demo-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+                    Try the Live Demo
+                </button>
+            </section>
+
+        </main>
+    </div>
+
+    <div id="slides-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
+        <div class="container mx-auto">
+            <button id="back-to-landing-from-slides" class="mb-6 text-blue-400 hover:text-blue-300 font-bold">&larr; Back to Home</button>
+            <div class="methodology-hero glass-card rounded-2xl p-8 mb-8">
+                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+                    <div>
+                        <div class="pill">Methodology</div>
+                        <h2 class="text-3xl lg:text-4xl font-extrabold text-white mt-2">From Signals to Decisions</h2>
+                        <p class="text-slate-300 mt-2 max-w-3xl">A transparent, data‑driven framework that models borrower risk dynamically using interpretable components and ODE‑based evolution.</p>
+                    </div>
+                    <div class="score-card-compact">
+                        <div class="score-display">
+                            <div class="score-number">RK45</div>
+                            <div class="score-subtitle">Solver Engine</div>
+                        </div>
+                        <div class="risk-summary">
+                            <div class="risk-badge badge-green-400">Interpretable</div>
+                            <div class="risk-detail">Glass‑box modelling</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="glass-card rounded-2xl p-6 mb-8">
+                <h3 class="section-title">State Equation</h3>
+                <p class="equation-center">$$\Psi_t = \alpha\,\lVert X_t \rVert + \beta\,\sigma_t + \gamma\,\dot R_t + \delta\,\Phi_t + \varepsilon\,P_t + \zeta\,\Omega_t + \eta\,F_t$$</p>
+                <div class="grid md:grid-cols-2 gap-6 mt-4">
+                    <div class="method-card">
+                        <h4 class="method-title">Latent Preferences \((P_t)\)</h4>
+                        <p class="method-equation">$$P_t = \frac{1}{1 + e^{-(\beta_0 + \beta_1\,\text{Flag}+\cdots)}}$$</p>
+                        <ul class="method-bullets">
+                            <li>Categorized expenditure from merchant codes</li>
+                            <li>Card/QR spending patterns</li>
+                            <li>FMCG purchase patterns</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Debt Burden \((\lVert X_t \rVert)\)</h4>
+                        <p class="method-equation">$$\lVert X_t \rVert = \frac{\sum_i E_i}{\text{Monthly Income}}$$</p>
+                        <ul class="method-bullets">
+                            <li>Loan contracts, bureau snapshots</li>
+                            <li>EMI detection from bank statements</li>
+                            <li>Telecom postpaid bills</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Foresight Score \((F_t)\)</h4>
+                        <p class="method-equation">$$\frac{dF_t}{dt} = \psi_1 C_t - \psi_2 U_t - \lambda F_t$$</p>
+                        <ul class="method-bullets">
+                            <li>FD top‑ups, recurring deposits</li>
+                            <li>Advance utility payments</li>
+                            <li>Insurance premium regularity</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Peer Contagion \((\Phi_t)\)</h4>
+                        <p class="method-equation">$$\frac{d\Phi_t}{dt} = \nu\,(\overline{\Phi} - \Phi_t)$$</p>
+                        <ul class="method-bullets">
+                            <li>Geo‑aggregates at PIN‑code level</li>
+                            <li>MFI default rates, mobility, MSME trends</li>
+                            <li>Distress keywords; payday loan spikes</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Financial Fatigue \((\Omega_t)\)</h4>
+                        <p class="method-equation">$$\frac{d\Omega_t}{dt} = \theta_1\,\#\text{Shocks} - \theta_2\,\frac{1}{t_r}$$</p>
+                        <ul class="method-bullets">
+                            <li>Consented UPI & transactional SMS</li>
+                            <li>Macro and local shock indices</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Recovery Rate \((\dot R_t)\)</h4>
+                        <p class="method-equation">$$\frac{dR_t}{dt} = -\lambda R_t + \omega S_t$$</p>
+                        <ul class="method-bullets">
+                            <li>Repayment histories, post‑arrears recharges</li>
+                            <li>Utility bill catch‑ups; co‑op credit logs</li>
+                        </ul>
+                    </div>
+                    <div class="method-card md:col-span-2">
+                        <h4 class="method-title">Income Volatility \((\sigma_t)\)</h4>
+                        <p class="method-equation">$$\frac{d\sigma_t}{dt} = \kappa\,(\lvert\Delta I_{t-1}\rvert - \sigma_t)$$</p>
+                        <ul class="method-bullets">
+                            <li>Payroll deposits, GST returns</li>
+                            <li>Seasonal wage patterns, bank credits</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <section class="glass-card rounded-2xl p-6 mb-8">
+                <h3 class="section-title">Forecasting Engine</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="method-card">
+                        <h4 class="method-title">Calibration: Data over Assumptions</h4>
+                        <ol class="method-list">
+                            <li><strong>Discretize</strong> continuous ODEs to discrete time.</li>
+                            <li><strong>Regress</strong> to learn best‑fit parameters from history.</li>
+                        </ol>
+                        <p class="method-equation">$$\sigma_t - \sigma_{t-1} \approx \kappa\,(\lvert\Delta I_{t-1}\rvert - \sigma_{t-1})$$</p>
+                        <div class="method-note">Adaptive RK45 step‑size: large steps in stable periods, finer during shocks.</div>
+                    </div>
+                    <div class="method-card">
+                        <h4 class="method-title">Elastic Net Training</h4>
+                        <p class="method-equation">$$\hat{\beta} = \arg\min_{\beta}\,\Big(\lVert y - X\beta \rVert_2^2 + \lambda_1\lVert\beta\rVert_1 + \lambda_2\lVert\beta\rVert_2^2\Big)$$</p>
+                        <ul class="method-bullets">
+                            <li>Balances sparsity (L1) and stability (L2)</li>
+                            <li>Robust when predictors are correlated</li>
+                            <li>Interpretable and production‑friendly</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="method-card mt-6">
+                    <h4 class="method-title">Model Landscape (Snapshot)</h4>
+                    <div class="method-table">
+                        <div class="row header"><span>Model</span><span>Performance</span><span>Interpretability</span><span>Suitability</span></div>
+                        <div class="row"><span>Logistic Reg.</span><span>Med</span><span>Glass‑Box</span><span>Baseline</span></div>
+                        <div class="row highlight"><span>ElasticNet</span><span>High</span><span>Glass‑Box</span><span>Chosen</span></div>
+                        <div class="row"><span>Random Forest</span><span>High</span><span>Black‑Box</span><span>Not Suitable</span></div>
+                        <div class="row"><span>LightGBM/XGBoost</span><span>V. High</span><span>Black‑Box</span><span>Benchmark</span></div>
+                        <div class="row"><span>Neural Network</span><span>Variable</span><span>Black‑Box</span><span>Not Suitable</span></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div id="monitoring-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
+        <div class="container mx-auto">
+            <button id="back-to-landing-btn" class="mb-6 text-blue-400 hover:text-blue-300">&larr; Back to Home</button>
+            <h2 class="text-3xl font-bold text-white mb-6">Risk Monitoring Dashboard</h2>
+            <div id="applicant-list" class="space-y-3">
+                </div>
+        </div>
+    </div>
+
+    <div id="report-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
+         <div class="container mx-auto">
+            <button id="back-to-monitoring-btn" class="mb-6 text-blue-400 hover:text-blue-300 font-bold">&larr; Back to Dashboard</button>
+            <div id="report-content-wrapper">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/utils/BufferGeometryUtils.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/math/MeshSurfaceSampler.js"></script>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
