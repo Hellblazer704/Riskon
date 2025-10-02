@@ -140,115 +140,104 @@ document.addEventListener('DOMContentLoaded', function () {
 
     initHeroAnimation();
 
-    // --- "JOURNEY OF DATA" ANIMATION ---
-    const solutionStepsData = [
-        { title: "Stage 1 - Ingestion", description: "We take in the chaos." },
-        { title: "Stage 2 - Processing", description: "We process and structure information." },
-        { title: "Stage 3 - Intelligence", description: "We learn from the patterns." },
-        { title: "Stage 4 - Prediction", description: "We predict risk, before it strikes." }
-    ];
-    const stepsContainer = document.getElementById('solution-steps');
-    if (stepsContainer) {
-        stepsContainer.innerHTML = ''; // Clear existing steps
-        solutionStepsData.forEach((step, i) => {
-            stepsContainer.innerHTML += `<div class="step-content" id="step-${i}"><h3 class="text-3xl font-bold mb-3">${step.title}</h3><p class="text-slate-400 text-lg">${step.description}</p></div>`;
+    // --- NEW DATA PIPELINE ANIMATION ---
+    function initDataPipelineAnimation() {
+        const svg = document.getElementById('pipeline-svg');
+        if (!svg) return;
+
+        const ns = "http://www.w3.org/2000/svg";
+        const hubX = 400, hubY = 250, hubR = 60;
+
+        const sources = [
+            { id: 'upi', x: 100, y: 100, color: '#3b82f6', icon: '📱', text: 'UPI & SMS', path: 'M 130 130 Q 250 150 350 220' },
+            { id: 'telecom', x: 250, y: 420, color: '#f59e0b', icon: '📞', text: 'Telecom & Utilities', path: 'M 280 390 Q 300 350 360 280' },
+            { id: 'geo', x: 700, y: 100, color: '#10b981', icon: '🏠', text: 'Geo & PIN-code', path: 'M 670 130 Q 550 150 450 220' },
+            { id: 'agri', x: 550, y: 420, color: '#8b5cf6', icon: '🌾', text: 'Weather & Agri', path: 'M 520 390 Q 500 350 440 280' },
+            { id: 'loans', x: 700, y: 250, color: '#ef4444', icon: '💳', text: 'Loans & Transactions', path: 'M 670 250 H 460' },
+        ];
+
+        // Create SVG elements
+        let svgContent = `
+            <g id="hub" class="pipeline-hub" transform="translate(${hubX}, ${hubY})">
+                <circle r="${hubR}" class="hub-glow-bg"/>
+                <circle r="${hubR}" class="hub-circle"/>
+                <circle r="4" class="hub-particle p1" />
+                <circle r="3" class="hub-particle p2" />
+                <circle r="2" class="hub-particle p3" />
+                <text y="8" text-anchor="middle" class="hub-text">RISKON</text>
+            </g>
+            <path id="output-stream" class="stream-line" d="M ${hubX} ${hubY + hubR} v 100" />
+        `;
+
+        sources.forEach(source => {
+            svgContent += `
+                <path id="${source.id}-path" class="stream-line" stroke="${source.color}" d="${source.path}" />
+                <g id="${source.id}-group" class="source-icon" transform="translate(${source.x}, ${source.y})">
+                    <circle r="30" class="icon-bg"/>
+                    <text y="8" text-anchor="middle" class="icon-symbol">${source.icon}</text>
+                    <text y="48" text-anchor="middle" class="icon-label">${source.text}</text>
+                </g>
+            `;
         });
-    }
+        svg.innerHTML = svgContent;
 
-    let vizScene, vizCamera, vizRenderer, particles, lines, dashboard;
-
-    function initSolutionViz() {
-        const container = document.getElementById('solution-viz');
-        if (!container || typeof THREE === 'undefined') return;
-
-        vizScene = new THREE.Scene();
-        vizCamera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
-        vizRenderer = new THREE.WebGLRenderer({ alpha: true });
-        vizRenderer.setSize(container.clientWidth, container.clientHeight);
-        container.innerHTML = ''; // Clear previous canvas if any
-        container.appendChild(vizRenderer.domElement);
-        vizCamera.position.set(0, 0, 15);
-
-        const particleGeo = new THREE.BufferGeometry();
-        const particleCount = 2000;
-        const posArray = new Float32Array(particleCount * 3);
-        for (let i = 0; i < particleCount * 3; i++) { posArray[i] = (Math.random() - 0.5) * 20; }
-        particleGeo.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-        const particleMat = new THREE.PointsMaterial({ size: 0.05, color: 0x94a3b8 });
-        particles = new THREE.Points(particleGeo, particleMat);
-        vizScene.add(particles);
-
-        const lineGeo = new THREE.BufferGeometry();
-        const linePos = new Float32Array(200 * 3);
-        lineGeo.setAttribute('position', new THREE.BufferAttribute(linePos, 3));
-        const lineMat = new THREE.LineBasicMaterial({ color: 0x3b82f6, transparent: true, opacity: 0 });
-        lines = new THREE.Line(lineGeo, lineMat);
-        vizScene.add(lines);
-
-        const dashGeo = new THREE.PlaneGeometry(8, 5);
-        const dashMat = new THREE.MeshBasicMaterial({ color: 0x1f2937, transparent: true, opacity: 0, side: THREE.DoubleSide });
-        dashboard = new THREE.Mesh(dashGeo, dashMat);
-        vizScene.add(dashboard);
-
+        // --- GSAP Animation Timeline ---
         const tl = gsap.timeline({
             scrollTrigger: {
-                trigger: "#solution-section-container",
-                start: "top top",
-                end: "bottom bottom",
-                scrub: 1,
-                onUpdate: (self) => {
-                    const progress = self.progress;
-                    const stepProgress = Math.floor(progress * solutionStepsData.length);
-                    const stepContents = document.querySelectorAll(".step-content");
-                    stepContents.forEach((step, i) => {
-                        step.classList.toggle('is-active', i === stepProgress);
-                    });
-                }
+                trigger: "#data-pipeline-section",
+                start: "center center",
+                toggleActions: "play none none reverse",
             }
         });
 
-        tl.to(particles.position, { x: 0, y: 0, z: -5, duration: 0.25 });
-        tl.to(particles.scale, { x: 0.2, y: 0.2, z: 0.2, duration: 0.25 }, "<");
-        tl.to(lines.material, { opacity: 1, duration: 0.05 });
-        tl.to(particles.scale, { x: 0, y: 0, z: 0, duration: 0.05 }, "<");
-        tl.to(lines.material, { opacity: 0, duration: 0.05 });
-        tl.call(() => {
-            const positions = particles.geometry.attributes.position.array;
-            for (let i = 0; i < particleCount; i++) {
-                const cluster = Math.floor(Math.random() * 3);
-                positions[i * 3] = (cluster - 1) * 4 + (Math.random() - 0.5) * 2;
-                positions[i * 3 + 1] = (Math.random() - 0.5) * 2;
-                positions[i * 3 + 2] = (Math.random() - 0.5) * 2;
-            }
-            particles.geometry.attributes.position.needsUpdate = true;
+        // 1. Initial State
+        gsap.set("#hub, .source-icon, .stream-line, #output-stream, #pipeline-output-card", { autoAlpha: 0 });
+        gsap.set("#hub, .source-icon", { scale: 0, transformOrigin: "center center" });
+        gsap.set("#pipeline-output-card", { y: 30 });
+        gsap.set(".stream-line", { strokeDasharray: 250, strokeDashoffset: 250 });
+        gsap.set("#output-stream", { strokeDasharray: 100, strokeDashoffset: 100 });
+
+        // 2. Hub & Text Appear
+        tl.to("#hub", { autoAlpha: 1, scale: 1, duration: 1, ease: "elastic.out(1, 0.5)" }, "start");
+        tl.from("#pipeline-text-container h2, #pipeline-text-container p", { y: 20, autoAlpha: 0, stagger: 0.2, duration: 0.8 }, "start+=0.2");
+        
+        // 3. Data Sources Appear
+        tl.to(".source-icon", { autoAlpha: 1, scale: 1, duration: 0.8, ease: "elastic.out(1, 0.7)", stagger: 0.2 }, "start+=1");
+
+        // 4. Flow into Hub
+        sources.forEach(source => {
+            tl.to(`#${source.id}-path`, { autoAlpha: 1 }, "flow");
+            tl.to(`#${source.id}-path`, { strokeDashoffset: 0, duration: 2, ease: "power1.inOut" }, "flow");
         });
-        tl.to(particles.scale, { x: 1, y: 1, z: 1, duration: 0.2 });
-        tl.to(particles.scale, { x: 0, y: 0, z: 0, duration: 0.2 });
-        tl.to(dashboard.scale, { x: 1, y: 1, z: 1, duration: 0.2 }, "<");
-        tl.to(dashboard.material, { opacity: 0.8, duration: 0.2 }, "<");
-        animateViz();
-    }
+        tl.to(".hub-glow-bg", { attr: { r: 80 }, opacity: 0.5, duration: 2, ease: "power1.inOut" }, "flow");
 
-    function animateViz() {
-        requestAnimationFrame(animateViz);
-        if (vizRenderer && vizScene && vizCamera) {
-            if (lines && lines.material.opacity > 0) {
-                const linePos = lines.geometry.attributes.position.array;
-                const t = Date.now() * 0.001;
-                for (let i = 0; i < 200; i++) {
-                    const i3 = i * 3;
-                    const progress = i / 199;
-                    linePos[i3] = Math.cos(t + progress * 10) * (3 - progress * 3);
-                    linePos[i3 + 1] = Math.sin(t + progress * 10) * (3 - progress * 3);
-                    linePos[i3 + 2] = (progress - 0.5) * 10;
-                }
-                lines.geometry.attributes.position.needsUpdate = true;
+        // 5. Processing Effect
+        tl.to("#pipeline-text-container", {
+            autoAlpha: 0, y: -20, duration: 0.5,
+            onComplete: () => {
+                const textContainer = document.querySelector("#pipeline-text-container");
+                textContainer.querySelector("h2").textContent = "Processing Signals";
+                textContainer.querySelector("p").textContent = "Transforming External Data into Actionable Credit Insights.";
             }
-            vizRenderer.render(vizScene, vizCamera);
-        }
+        }, "process");
+        tl.to("#pipeline-text-container", { autoAlpha: 1, y: 0, duration: 0.5 });
+        tl.to(".hub-particle.p1", { rotation: 360, svgOrigin: "400 250", duration: 2, repeat: 1, ease: "none" }, "process");
+        tl.to(".hub-particle.p2", { rotation: -360, svgOrigin: "400 250", duration: 1.5, repeat: 1, ease: "none" }, "process");
+        tl.to(".hub-particle.p3", { rotation: 720, svgOrigin: "400 250", duration: 2.5, repeat: 1, ease: "none" }, "process");
+        
+        // 6. Output
+        tl.to("#output-stream", { autoAlpha: 1 }, "output");
+        tl.to("#output-stream", { strokeDashoffset: 0, duration: 1, ease: "power1.out" }, "output");
+        tl.to("#pipeline-output-card", { autoAlpha: 1, y: 0, duration: 0.8, ease: "back.out(1.7)" }, "output+=0.5");
+
+        // 7. Loop Mode (on timeline complete)
+        tl.eventCallback("onComplete", () => {
+            gsap.to(".source-icon .icon-bg", { scale: 1.1, duration: 1, yoyo: true, repeat: -1, ease: "power1.inOut", stagger: 0.15 });
+            gsap.to(".hub-glow-bg", { opacity: 0.3, duration: 1.5, yoyo: true, repeat: -1, ease: "power1.inOut" });
+        });
     }
 
-    initSolutionViz();
+    initDataPipelineAnimation();
 
     // --- Page Elements ---
     const landingPage = document.getElementById('landing-page');
@@ -401,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card-content-wrapper">
                     <div class="flex-shrink-0">
                         <img src="${avatar}" alt="${name}" class="applicant-avatar rounded-full object-cover" 
-                             onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face'">
+                               onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face'">
                     </div>
                     <div class="card-main-info">
                         <div class="card-header-info">
@@ -762,7 +751,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const reportHTML = `
             <div id="report-page-container" class="report-container" style="opacity: 0;">
-                <!-- Enhanced Report Header -->
                 <div class="report-header-enhanced">
                     <div class="header-main">
                         <h1>RISKON&trade; Intelligence Report</h1>
@@ -787,13 +775,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             <div class="score-subtitle">CIBIL Equivalent</div>
                         </div>
                         <div class="risk-summary">
-                            <div class="risk-badge ${riskColorClass.replace('risk-', 'badge-')}">${riskCategory} Risk</div>
+                            <div class="risk-badge badge-${riskColorClass}">${riskCategory} Risk</div>
                             <div class="risk-detail">${(latestRecord.Predicted_Prob_Default * 100).toFixed(1)}% Default Probability</div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Personal & Overview Section -->
                 <div class="section grid-2-col">
                     ${generatePersonalInfoCardsHTML(applicant)}
 
@@ -803,9 +790,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <span>Financial Overview</span>
                         </h3>
                         <div class="report-section-content">
-                            <!-- Financial Summary Cards -->
                             <div class="financial-summary-grid">
-                                <!-- Primary Income Card -->
                                 <div class="financial-card primary-income-card">
                                     <div class="financial-card-header">
                                         <div class="card-icon income-icon">💵</div>
@@ -825,7 +810,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                     </div>
                                 </div>
 
-                                <!-- Spending Card -->
                                 <div class="financial-card spending-card">
                                     <div class="financial-card-header">
                                         <div class="card-icon spending-icon">🛒</div>
@@ -845,7 +829,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                     </div>
                                 </div>
 
-                                <!-- Investments Card -->
                                 <div class="financial-card investments-card">
                                     <div class="financial-card-header">
                                         <div class="card-icon investment-icon">📈</div>
@@ -866,7 +849,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 </div>
                             </div>
 
-                            <!-- Financial Health Indicators -->
                             <div class="financial-health-section">
                                 <h4 class="health-section-title">Financial Health Indicators</h4>
                                 <div class="health-indicators-grid">
@@ -914,14 +896,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
 
-                <!-- Employment Section -->
                 <div class="section report-section">
                     <h3 class="report-section-title">
                         <i class="section-icon">💼</i>
                         <span>Employment Analysis</span>
                     </h3>
                     <div class="report-section-content">
-                        <!-- Employment Hero Card -->
                         <div class="employment-hero-card">
                             <div class="employment-hero-content">
                                 <div class="employment-primary-info">
@@ -945,7 +925,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             </div>
                         </div>
 
-                        <!-- Employment Details Grid -->
                         <div class="employment-details-modern">
                             <div class="employment-info-card">
                                 <div class="info-card-header">
@@ -1011,7 +990,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
 
-                <!-- Financial Analytics Section -->
                 <div class="section grid-2-col">
                     <div class="report-section spending-analytics-section">
                         <h3 class="report-section-title">
@@ -1019,7 +997,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             <span>Spending Analytics</span>
                         </h3>
                         <div class="report-section-content">
-                            <!-- Spending Hero Section -->
                             <div class="spending-hero-section">
                                 <div class="spending-summary-modern">
                                     <div class="spending-total-card">
@@ -1044,7 +1021,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                     </div>
                                 </div>
 
-                                <!-- Interactive Chart Section -->
                                 <div class="spending-chart-section">
                                     <div class="chart-header">
                                         <h4 class="chart-title">Spending Breakdown</h4>
@@ -1061,15 +1037,13 @@ document.addEventListener('DOMContentLoaded', function () {
                                 </div>
                             </div>
 
-                            <!-- Category Breakdown -->
                             <div class="spending-categories-modern">
                                 <div class="categories-header">
                                     <h4 class="categories-title">Category Breakdown</h4>
                                     <p class="categories-subtitle">Detailed spending analysis</p>
                                 </div>
                                 <div class="categories-grid" id="spending-legend-${applicantId}">
-                                    <!-- Categories will be populated by JavaScript -->
-                                </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -1080,7 +1054,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             <span>Investment Portfolio</span>
                         </h3>
                         <div class="report-section-content">
-                            <!-- Investment Hero Section -->
                             <div class="investment-hero-section">
                                 <div class="portfolio-summary-modern">
                                     <div class="portfolio-total-card">
@@ -1111,7 +1084,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                     </div>
                                 </div>
 
-                                <!-- Interactive Chart Section -->
                                 <div class="investment-chart-section">
                                     <div class="investment-chart-header">
                                         <h4 class="investment-chart-title">Asset Allocation</h4>
@@ -1128,21 +1100,18 @@ document.addEventListener('DOMContentLoaded', function () {
                                 </div>
                             </div>
 
-                            <!-- Asset Breakdown -->
                             <div class="investment-assets-modern">
                                 <div class="assets-header">
                                     <h4 class="assets-title">Asset Breakdown</h4>
                                     <p class="assets-subtitle">Detailed portfolio composition</p>
                                 </div>
                                 <div class="assets-grid" id="investment-legend-${applicantId}">
-                                    <!-- Assets will be populated by JavaScript -->
-                                </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Risk Analysis Section -->
                 <div class="section report-section">
                     <h3 class="report-section-title">
                         
@@ -1157,10 +1126,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
 
-                <!-- Risk History Section -->
                 <div class="section report-section">
                     <h3 class="report-section-title">
-                       
+                        
                         <span>Risk History Timeline</span>
                     </h3>
                     <div class="report-section-content">
@@ -1170,7 +1138,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
 
-                <!-- Report Actions -->
                 <div class="report-actions-section">
                     <button id="generate-report-btn" onclick="handleGenerateReport('${applicantId}')" class="action-btn primary-btn">
                         <svg class="btn-icon" viewBox="0 0 24 24">
@@ -1331,7 +1298,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             </div>
                         </div>
                         <div class="category-amount-section">
-                            <div class="category-amount-modern">${field.value}</div>
+                            <div class="category-amount-modern" style="font-size: 1rem; color: #e2e8f0; font-weight: 500; text-align: left;">${field.value}</div>
                         </div>
                     </div>
                 `;
@@ -1345,7 +1312,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <span>Personal Information</span>
                 </h3>
                 <div class="report-section-content">
-                    <div class="personal-cards-grid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                    <div class="personal-cards-grid">
                         ${cardsHTML}
                     </div>
                 </div>
