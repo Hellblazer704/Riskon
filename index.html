@@ -24,43 +24,86 @@
         <main>
             <section id="hero-section" class="h-[300vh] relative">
                 <div class="sticky top-0 h-screen flex items-center justify-center text-center overflow-hidden">
+                    <!-- Gradient Overlays -->
+                    <div class="absolute inset-0 z-0 bg-gradient-to-b from-blue-900/20 via-transparent to-black/40"></div>
                     <div class="absolute inset-0 z-0" id="hero-animation"></div>
-                    <div id="hero-text" class="relative z-10 p-4 opacity-0">
-                        <h2 class="text-5xl md:text-7xl font-bold text-white mb-4">The Future of Credit Intelligence</h2>
-                        <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">Bringing clarity and fairness to the complex world of credit risk assessment through dynamic, data-driven insights.</p>
+                    <div class="absolute inset-0 z-0 bg-gradient-radial from-transparent via-transparent to-black/60"></div>
+                    
+                    <!-- Hero Content -->
+                    <div id="hero-text" class="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full opacity-0">
+                        <div class="hero-content-wrapper max-w-4xl mx-auto">
+                            <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                                Credit Intelligence from
+                                <span class="text-gradient bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent"> External Data</span>
+                            </h2>
+                            <p class="text-lg sm:text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                                We transform diverse external signals—from UPI transactions to geo-local trends—into actionable credit insights for fair and inclusive lending.
+                            </p>
+                            <div class="hero-stats flex flex-wrap justify-center gap-6 md:gap-8 mt-12 opacity-0" id="hero-stats">
+                                <div class="stat-item text-center">
+                                    <div class="text-3xl md:text-4xl font-bold text-blue-400 mb-2">8000+</div>
+                                    <div class="text-sm text-slate-400">Data Points</div>
+                                </div>
+                                <div class="stat-item text-center">
+                                    <div class="text-3xl md:text-4xl font-bold text-cyan-400 mb-2">5+</div>
+                                    <div class="text-sm text-slate-400">Data Sources</div>
+                                </div>
+                                <div class="stat-item text-center">
+                                    <div class="text-3xl md:text-4xl font-bold text-blue-500 mb-2">Real-time</div>
+                                    <div class="text-sm text-slate-400">Analysis</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Scroll Indicator -->
+                    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10" id="scroll-indicator">
+                        <div class="flex flex-col items-center gap-2 opacity-0 animate-bounce">
+                            <span class="text-slate-400 text-sm">Scroll to explore</span>
+                            <svg class="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section id="data-pipeline-section" class="h-screen sticky top-0 flex flex-col items-center justify-center bg-black text-white p-4 overflow-hidden">
-                <div id="pipeline-text-container" class="text-center mb-8 h-24">
-                    <div class="pipeline-text-stage" id="pipeline-text-1">
-                        <h2 class="text-4xl md:text-5xl font-bold mb-3">The Journey of Data</h2>
-                        <p class="text-lg text-slate-400 max-w-2xl mx-auto">Ingesting diverse, real-time signals to build a fair and accurate credit picture.</p>
-                    </div>
-                    <div class="pipeline-text-stage absolute top-0 left-0 right-0" id="pipeline-text-2">
-                        <h2 class="text-4xl md:text-5xl font-bold mb-3">Processing Signals</h2>
-                        <p class="text-lg text-slate-400 max-w-2xl mx-auto">Transforming External Signals → Actionable Credit Insights.</p>
-                    </div>
-                </div>
-                <div id="data-pipeline-container" class="w-full max-w-4xl relative">
-                    <svg id="pipeline-svg" viewBox="0 0 800 500"></svg>
-                    <div id="pipeline-output-card" class="output-card">
-                        <h4 class="text-lg font-bold mb-3 text-white">Actionable Credit Insights</h4>
-                        <ul class="space-y-2 text-slate-300">
-                            <li><span class="text-green-400 mr-2">✅</span>Fair Lending Decisions</li>
-                            <li><span class="text-green-400 mr-2">📊</span>Improved Risk Prediction</li>
-                            <li><span class="text-green-400 mr-2">🌍</span>Financial Inclusion</li>
-                        </ul>
+            <section id="solution-section-container" class="relative">
+                <!-- Background gradients -->
+                <div class="absolute inset-0 bg-gradient-to-b from-black via-gray-950 to-black pointer-events-none"></div>
+                <div class="absolute inset-0 bg-gradient-radial from-blue-900/5 via-transparent to-transparent pointer-events-none"></div>
+                
+                <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+                    
+                    <!-- Content Wrapper -->
+                    <div class="solution-content-wrapper">
+                        <!-- Steps Container -->
+                        <div id="solution-steps" class="solution-steps-centered">
+                        </div>
+                        
+                        <!-- Visualization Container -->
+                        <div id="solution-viz-sticky-container">
+                            <div id="solution-viz-title">
+                                <h3>Our Data Sources</h3>
+                                <p>Integrating diverse signals for comprehensive credit profiles</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-
-            <section class="text-center py-20 bg-black">
-                <button id="demo-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
-                    Try the Live Demo
-                </button>
+            <section class="text-center py-32 bg-black relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-radial from-blue-900/10 via-transparent to-transparent"></div>
+                <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Experience RISKON?</h3>
+                    <p class="text-slate-400 mb-10 text-lg">Explore our live demo to see credit intelligence in action</p>
+                    <button id="demo-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
+                        Try the Live Demo
+                        <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </button>
+                </div>
             </section>
 
         </main>
@@ -192,6 +235,8 @@
                     </div>
                 </div>
             </section>
+        </div>
+    </div>
         </div>
     </div>
 
