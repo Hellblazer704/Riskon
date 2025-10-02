@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Create SVG elements
         let svgContent = `
             <g id="hub" class="pipeline-hub" transform="translate(${hubX}, ${hubY})">
-                <circle r="${hubR}" class="hub-glow-bg"/>
+                <circle r="${hubR + 10}" class="hub-glow-bg"/>
                 <circle r="${hubR}" class="hub-circle"/>
                 <circle r="4" class="hub-particle p1" />
                 <circle r="3" class="hub-particle p2" />
@@ -180,60 +180,54 @@ document.addEventListener('DOMContentLoaded', function () {
             `;
         });
         svg.innerHTML = svgContent;
-
+        
         // --- GSAP Animation Timeline ---
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: "#data-pipeline-section",
                 start: "center center",
                 toggleActions: "play none none reverse",
+            },
+            defaults: {
+                duration: 1,
+                ease: 'power2.inOut'
             }
         });
 
         // 1. Initial State
-        gsap.set("#hub, .source-icon, .stream-line, #output-stream, #pipeline-output-card", { autoAlpha: 0 });
+        gsap.set("#hub, .source-icon, .stream-line, #output-stream, #pipeline-output-card, #pipeline-text-2", { autoAlpha: 0 });
         gsap.set("#hub, .source-icon", { scale: 0, transformOrigin: "center center" });
         gsap.set("#pipeline-output-card", { y: 30 });
-        gsap.set(".stream-line", { strokeDasharray: 250, strokeDashoffset: 250 });
+        gsap.set(".stream-line", { strokeDasharray: 300, strokeDashoffset: 300 });
         gsap.set("#output-stream", { strokeDasharray: 100, strokeDashoffset: 100 });
 
-        // 2. Hub & Text Appear
-        tl.to("#hub", { autoAlpha: 1, scale: 1, duration: 1, ease: "elastic.out(1, 0.5)" }, "start");
-        tl.from("#pipeline-text-container h2, #pipeline-text-container p", { y: 20, autoAlpha: 0, stagger: 0.2, duration: 0.8 }, "start+=0.2");
+        // 2. Data Sources Appear (2-5 sec)
+        tl.to("#hub", { autoAlpha: 1, scale: 1, ease: "elastic.out(1, 0.5)" }, 2);
+        tl.to(".source-icon", { autoAlpha: 1, scale: 1, ease: "elastic.out(1, 0.7)", stagger: 0.3 }, 2.5);
+
+        // 3. Flow Into the Hub (5-10 sec)
+        tl.to(".stream-line", { autoAlpha: 1 }, 5);
+        tl.to(".stream-line", { strokeDashoffset: 0, duration: 4, ease: "power1.inOut" }, 5);
+        tl.to(".hub-glow-bg", { attr: { r: hubR + 20 }, opacity: 0.5, duration: 4, ease: "power1.inOut" }, 5);
+
+        // 4. Processing Effect (10-12 sec)
+        tl.to("#pipeline-text-1", { autoAlpha: 0, y: -20 }, 10);
+        tl.to("#pipeline-text-2", { autoAlpha: 1, y: 0 }, 10.5);
+        tl.to(".hub-particle.p1", { rotation: 360, svgOrigin: `${hubX} ${hubY}`, duration: 2, repeat: -1, ease: "none" }, 10);
+        tl.to(".hub-particle.p2", { rotation: -360, svgOrigin: `${hubX} ${hubY}`, duration: 1.5, repeat: -1, ease: "none" }, 10);
+        tl.to(".hub-particle.p3", { rotation: 720, svgOrigin: `${hubX} ${hubY}`, duration: 2.5, repeat: -1, ease: "none" }, 10);
+
+        // 5. Output (12-15 sec)
+        tl.to("#output-stream", { autoAlpha: 1 }, 12);
+        tl.to("#output-stream", { strokeDashoffset: 0 }, 12);
+        tl.to("#pipeline-output-card", { autoAlpha: 1, y: 0, ease: "back.out(1.7)" }, 12.5);
         
-        // 3. Data Sources Appear
-        tl.to(".source-icon", { autoAlpha: 1, scale: 1, duration: 0.8, ease: "elastic.out(1, 0.7)", stagger: 0.2 }, "start+=1");
-
-        // 4. Flow into Hub
-        sources.forEach(source => {
-            tl.to(`#${source.id}-path`, { autoAlpha: 1 }, "flow");
-            tl.to(`#${source.id}-path`, { strokeDashoffset: 0, duration: 2, ease: "power1.inOut" }, "flow");
-        });
-        tl.to(".hub-glow-bg", { attr: { r: 80 }, opacity: 0.5, duration: 2, ease: "power1.inOut" }, "flow");
-
-        // 5. Processing Effect
-        tl.to("#pipeline-text-container", {
-            autoAlpha: 0, y: -20, duration: 0.5,
-            onComplete: () => {
-                const textContainer = document.querySelector("#pipeline-text-container");
-                textContainer.querySelector("h2").textContent = "Processing Signals";
-                textContainer.querySelector("p").textContent = "Transforming External Data into Actionable Credit Insights.";
-            }
-        }, "process");
-        tl.to("#pipeline-text-container", { autoAlpha: 1, y: 0, duration: 0.5 });
-        tl.to(".hub-particle.p1", { rotation: 360, svgOrigin: "400 250", duration: 2, repeat: 1, ease: "none" }, "process");
-        tl.to(".hub-particle.p2", { rotation: -360, svgOrigin: "400 250", duration: 1.5, repeat: 1, ease: "none" }, "process");
-        tl.to(".hub-particle.p3", { rotation: 720, svgOrigin: "400 250", duration: 2.5, repeat: 1, ease: "none" }, "process");
-        
-        // 6. Output
-        tl.to("#output-stream", { autoAlpha: 1 }, "output");
-        tl.to("#output-stream", { strokeDashoffset: 0, duration: 1, ease: "power1.out" }, "output");
-        tl.to("#pipeline-output-card", { autoAlpha: 1, y: 0, duration: 0.8, ease: "back.out(1.7)" }, "output+=0.5");
-
-        // 7. Loop Mode (on timeline complete)
+        // 6. Loop Mode (After 15 sec)
         tl.eventCallback("onComplete", () => {
-            gsap.to(".source-icon .icon-bg", { scale: 1.1, duration: 1, yoyo: true, repeat: -1, ease: "power1.inOut", stagger: 0.15 });
-            gsap.to(".hub-glow-bg", { opacity: 0.3, duration: 1.5, yoyo: true, repeat: -1, ease: "power1.inOut" });
+            gsap.to(".source-icon .icon-bg", { scale: 1.05, duration: 1.5, yoyo: true, repeat: -1, ease: "power1.inOut", stagger: 0.2 });
+            gsap.to(".hub-glow-bg", { opacity: 0.3, duration: 2, yoyo: true, repeat: -1, ease: "power1.inOut" });
+            gsap.to(".stream-line", { strokeDashoffset: 300, duration: 0 }); // reset
+            gsap.to(".stream-line", { strokeDashoffset: 0, duration: 4, ease: "power1.inOut", repeat: -1 });
         });
     }
 
