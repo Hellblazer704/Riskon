@@ -107,6 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, 1);
 
                 heroTimeline.to("#hero-text", { opacity: 1, duration: 0.5 }, 1.5);
+                heroTimeline.to("#hero-stats", { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 1.8);
+                heroTimeline.to("#scroll-indicator div", { opacity: 0.7, duration: 0.4 }, 2);
                 
                 // Start the animation loop
                 animateHero();
@@ -140,98 +142,67 @@ document.addEventListener('DOMContentLoaded', function () {
 
     initHeroAnimation();
 
-    // --- NEW DATA PIPELINE ANIMATION ---
-    function initDataPipelineAnimation() {
-        const svg = document.getElementById('pipeline-svg');
-        if (!svg) return;
-
-        const ns = "http://www.w3.org/2000/svg";
-        const hubX = 400, hubY = 250, hubR = 60;
-
-        const sources = [
-            { id: 'upi', x: 100, y: 100, color: '#3b82f6', icon: '📱', text: 'UPI & SMS', path: 'M 130 130 Q 250 150 350 220' },
-            { id: 'telecom', x: 250, y: 420, color: '#f59e0b', icon: '📞', text: 'Telecom & Utilities', path: 'M 280 390 Q 300 350 360 280' },
-            { id: 'geo', x: 700, y: 100, color: '#10b981', icon: '🏠', text: 'Geo & PIN-code', path: 'M 670 130 Q 550 150 450 220' },
-            { id: 'agri', x: 550, y: 420, color: '#8b5cf6', icon: '🌾', text: 'Weather & Agri', path: 'M 520 390 Q 500 350 440 280' },
-            { id: 'loans', x: 700, y: 250, color: '#ef4444', icon: '💳', text: 'Loans & Transactions', path: 'M 670 250 H 460' },
-        ];
-
-        // Create SVG elements
-        let svgContent = `
-            <g id="hub" class="pipeline-hub" transform="translate(${hubX}, ${hubY})">
-                <circle r="${hubR + 10}" class="hub-glow-bg"/>
-                <circle r="${hubR}" class="hub-circle"/>
-                <circle r="4" class="hub-particle p1" />
-                <circle r="3" class="hub-particle p2" />
-                <circle r="2" class="hub-particle p3" />
-                <text y="8" text-anchor="middle" class="hub-text">RISKON</text>
-            </g>
-            <path id="output-stream" class="stream-line" d="M ${hubX} ${hubY + hubR} v 100" />
-        `;
-
-        sources.forEach(source => {
-            svgContent += `
-                <path id="${source.id}-path" class="stream-line" stroke="${source.color}" d="${source.path}" />
-                <g id="${source.id}-group" class="source-icon" transform="translate(${source.x}, ${source.y})">
-                    <circle r="30" class="icon-bg"/>
-                    <text y="8" text-anchor="middle" class="icon-symbol">${source.icon}</text>
-                    <text y="48" text-anchor="middle" class="icon-label">${source.text}</text>
-                </g>
+    // --- UPDATED "EXTERNAL DATA SOURCES" SECTION ---
+    const solutionStepsData = [
+        { 
+            title: "UPI & SMS Signals", 
+            description: "We analyze consented UPI transactions and SMS alerts to derive real-time income signals, spending habits, and financial discipline.",
+            icon: "💳"
+        },
+        { 
+            title: "Telecom & Utility Records", 
+            description: "By evaluating bill payment consistency for services like mobile and electricity, we gauge a borrower's reliability and financial stability over time.",
+            icon: "📱"
+        },
+        { 
+            title: "Geo-Spatial & PIN Code Data", 
+            description: "We leverage localized economic indicators, mobility trends, and MFI default rates at a PIN-code level to assess peer contagion and regional risk factors.",
+            icon: "📍"
+        },
+        { 
+            title: "Weather & Agriculture Data", 
+            description: "For rural and agricultural lending, we incorporate weather patterns and crop-yield data to predict income stability and mitigate climate-related risks.",
+            icon: "🌾"
+        },
+        { 
+            title: "Alternative Credit & Transactions", 
+            description: "Our engine processes data from loan contracts, bureau snapshots, and even FMCG purchase patterns to build a holistic, 360-degree view of an individual's creditworthiness.",
+            icon: "📊"
+        }
+    ];
+    const stepsContainer = document.getElementById('solution-steps');
+    if (stepsContainer) {
+        stepsContainer.innerHTML = ''; // Clear existing steps
+        solutionStepsData.forEach((step, i) => {
+            const colors = ['from-blue-500 to-cyan-500', 'from-cyan-500 to-teal-500', 'from-teal-500 to-green-500', 'from-green-500 to-emerald-500', 'from-purple-500 to-pink-500'];
+            stepsContainer.innerHTML += `
+                <div class="step-content" id="step-${i}">
+                    <div class="step-icon-wrapper mb-6">
+                        <div class="step-icon bg-gradient-to-br ${colors[i]} text-5xl">${step.icon}</div>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-bold mb-4">${step.title}</h3>
+                    <p class="text-slate-400 text-lg md:text-xl leading-relaxed">${step.description}</p>
+                    <div class="step-number text-8xl font-bold opacity-5 absolute top-8 right-8">${i + 1}</div>
+                </div>
             `;
-        });
-        svg.innerHTML = svgContent;
-        
-        // --- GSAP Animation Timeline ---
-        const tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: "#data-pipeline-section",
-                start: "center center",
-                toggleActions: "play none none reverse",
-            },
-            defaults: {
-                duration: 1,
-                ease: 'power2.inOut'
-            }
-        });
-
-        // 1. Initial State
-        gsap.set("#hub, .source-icon, .stream-line, #output-stream, #pipeline-output-card, #pipeline-text-2", { autoAlpha: 0 });
-        gsap.set("#hub, .source-icon", { scale: 0, transformOrigin: "center center" });
-        gsap.set("#pipeline-output-card", { y: 30 });
-        gsap.set(".stream-line", { strokeDasharray: 300, strokeDashoffset: 300 });
-        gsap.set("#output-stream", { strokeDasharray: 100, strokeDashoffset: 100 });
-
-        // 2. Data Sources Appear (2-5 sec)
-        tl.to("#hub", { autoAlpha: 1, scale: 1, ease: "elastic.out(1, 0.5)" }, 2);
-        tl.to(".source-icon", { autoAlpha: 1, scale: 1, ease: "elastic.out(1, 0.7)", stagger: 0.3 }, 2.5);
-
-        // 3. Flow Into the Hub (5-10 sec)
-        tl.to(".stream-line", { autoAlpha: 1 }, 5);
-        tl.to(".stream-line", { strokeDashoffset: 0, duration: 4, ease: "power1.inOut" }, 5);
-        tl.to(".hub-glow-bg", { attr: { r: hubR + 20 }, opacity: 0.5, duration: 4, ease: "power1.inOut" }, 5);
-
-        // 4. Processing Effect (10-12 sec)
-        tl.to("#pipeline-text-1", { autoAlpha: 0, y: -20 }, 10);
-        tl.to("#pipeline-text-2", { autoAlpha: 1, y: 0 }, 10.5);
-        tl.to(".hub-particle.p1", { rotation: 360, svgOrigin: `${hubX} ${hubY}`, duration: 2, repeat: -1, ease: "none" }, 10);
-        tl.to(".hub-particle.p2", { rotation: -360, svgOrigin: `${hubX} ${hubY}`, duration: 1.5, repeat: -1, ease: "none" }, 10);
-        tl.to(".hub-particle.p3", { rotation: 720, svgOrigin: `${hubX} ${hubY}`, duration: 2.5, repeat: -1, ease: "none" }, 10);
-
-        // 5. Output (12-15 sec)
-        tl.to("#output-stream", { autoAlpha: 1 }, 12);
-        tl.to("#output-stream", { strokeDashoffset: 0 }, 12);
-        tl.to("#pipeline-output-card", { autoAlpha: 1, y: 0, ease: "back.out(1.7)" }, 12.5);
-        
-        // 6. Loop Mode (After 15 sec)
-        tl.eventCallback("onComplete", () => {
-            gsap.to(".source-icon .icon-bg", { scale: 1.05, duration: 1.5, yoyo: true, repeat: -1, ease: "power1.inOut", stagger: 0.2 });
-            gsap.to(".hub-glow-bg", { opacity: 0.3, duration: 2, yoyo: true, repeat: -1, ease: "power1.inOut" });
-            gsap.to(".stream-line", { strokeDashoffset: 300, duration: 0 }); // reset
-            gsap.to(".stream-line", { strokeDashoffset: 0, duration: 4, ease: "power1.inOut", repeat: -1 });
         });
     }
 
-    initDataPipelineAnimation();
+    // Setup scroll trigger for step activation
+    const numSources = solutionStepsData.length;
+    
+    // Create individual scroll triggers for each step for smoother activation
+    document.querySelectorAll(".step-content").forEach((step, index) => {
+        ScrollTrigger.create({
+            trigger: step,
+            start: "top 70%",  // Activate when step enters 70% from top
+            end: "bottom 30%",  // Deactivate when step leaves 30% from top
+            onEnter: () => step.classList.add('is-active'),
+            onEnterBack: () => step.classList.add('is-active'),
+            onLeave: () => step.classList.remove('is-active'),
+            onLeaveBack: () => step.classList.remove('is-active'),
+        });
+    });
 
     // --- Page Elements ---
     const landingPage = document.getElementById('landing-page');
@@ -384,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card-content-wrapper">
                     <div class="flex-shrink-0">
                         <img src="${avatar}" alt="${name}" class="applicant-avatar rounded-full object-cover" 
-                               onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face'">
+                             onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face'">
                     </div>
                     <div class="card-main-info">
                         <div class="card-header-info">
@@ -769,7 +740,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <div class="score-subtitle">CIBIL Equivalent</div>
                         </div>
                         <div class="risk-summary">
-                            <div class="risk-badge badge-${riskColorClass}">${riskCategory} Risk</div>
+                            <div class="risk-badge ${riskColorClass.replace('risk-', 'badge-')}">${riskCategory} Risk</div>
                             <div class="risk-detail">${(latestRecord.Predicted_Prob_Default * 100).toFixed(1)}% Default Probability</div>
                         </div>
                     </div>
@@ -1122,7 +1093,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 <div class="section report-section">
                     <h3 class="report-section-title">
-                        
+                       
                         <span>Risk History Timeline</span>
                     </h3>
                     <div class="report-section-content">
@@ -1292,7 +1263,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             </div>
                         </div>
                         <div class="category-amount-section">
-                            <div class="category-amount-modern" style="font-size: 1rem; color: #e2e8f0; font-weight: 500; text-align: left;">${field.value}</div>
+                            <div class="category-amount-modern">${field.value}</div>
                         </div>
                     </div>
                 `;
@@ -1306,7 +1277,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <span>Personal Information</span>
                 </h3>
                 <div class="report-section-content">
-                    <div class="personal-cards-grid">
+                    <div class="personal-cards-grid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                         ${cardsHTML}
                     </div>
                 </div>
