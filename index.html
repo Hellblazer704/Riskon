@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- MathJax for clean LaTeX equations -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body class="antialiased">
@@ -34,13 +32,74 @@
                 </div>
             </section>
 
-            <!-- "Journey of Data" Section -->
             <section id="solution-section-container">
                 <div id="solution-steps">
-                    <!-- This will be populated by JavaScript -->
-                </div>
+                    </div>
                 <div id="solution-viz-sticky-container">
-                    <div id="solution-viz"></div>
+                    <svg id="data-flow-viz" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+                        <defs>
+                            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                                <feGaussianBlur stdDeviation="4" result="coloredBlur"></feGaussianBlur>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                        </defs>
+
+                        <path id="stream-1" class="stream stream-color-1" d="M 120 150 Q 250 220 380 290" fill="none" />
+                        <path id="stream-2" class="stream stream-color-2" d="M 230 480 Q 300 400 380 310" fill="none" />
+                        <path id="stream-3" class="stream stream-color-3" d="M 680 150 Q 550 220 420 290" fill="none" />
+                        <path id="stream-4" class="stream stream-color-4" d="M 570 480 Q 500 400 420 310" fill="none" />
+                        <path id="stream-5" class="stream stream-color-5" d="M 650 300 Q 550 300 425 300" fill="none" />
+                        <path id="stream-output" class="stream stream-color-out" d="M 400 325 V 450" fill="none" />
+
+                        <g id="hub" class="pulsing-element">
+                            <circle cx="400" cy="300" r="80" class="hub-circle-bg" />
+                            <circle cx="400" cy="300" r="70" class="hub-circle" filter="url(#glow)" />
+                            <text x="400" y="295" class="hub-text">RISKON</text>
+                            <text id="hub-subtitle-initial" x="400" y="320" class="hub-subtitle">Intelligence Core</text>
+                            <text id="hub-subtitle-processing" x="400" y="320" class="hub-subtitle" opacity="0">Processing Signals...</text>
+                        </g>
+                        
+                        <g id="source-1" class="data-source pulsing-element">
+                            <circle cx="120" cy="150" r="30" class="icon-bg"/>
+                            <path d="M113 140 h14 a2 2 0 0 1 2 2 v16 a2 2 0 0 1 -2 2 h-14 a2 2 0 0 1 -2 -2 v-16 a2 2 0 0 1 2 -2z m7 15 a1 1 0 1 0 0 2 1 1 0 0 0 0-2" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <text x="120" y="195" class="icon-label">UPI & SMS</text>
+                        </g>
+                        <g id="source-2" class="data-source pulsing-element">
+                            <circle cx="230" cy="480" r="30" class="icon-bg"/>
+                            <path d="M225 490 l5 -20 l5 20 l-2.5 -10 Z M220 485 h20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <text x="230" y="525" class="icon-label">Telecom & Utilities</text>
+                        </g>
+                        <g id="source-3" class="data-source pulsing-element">
+                            <circle cx="680" cy="150" r="30" class="icon-bg"/>
+                            <path d="M680 140 C 675 140, 670 145, 670 150 C 670 160, 680 165, 680 165 C 680 165, 690 160, 690 150 C 690 145, 685 140, 680 140 Z M680 152 a2 2 0 1 0 0 -4 2 2 0 0 0 0 4 Z" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <text x="680" y="195" class="icon-label">Geo & PIN-code</text>
+                        </g>
+                        <g id="source-4" class="data-source pulsing-element">
+                            <circle cx="570" cy="480" r="30" class="icon-bg"/>
+                             <path d="M560 485 a10 15 0 0 1 20 0 v5 a10 15 0 0 1 -20 0 Z M 570 475 l0 -5 M 573 475 l0 -5 M 567 475 l0 -5" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <text x="570" y="525" class="icon-label">Weather & Agri</text>
+                        </g>
+                         <g id="source-5" class="data-source pulsing-element">
+                            <circle cx="650" cy="300" r="30" class="icon-bg"/>
+                            <rect x="635" y="292" width="30" height="16" rx="2" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <line x1="635" y1="298" x2="665" y2="298" stroke="#94a3b8" stroke-width="2"/>
+                            <text x="650" y="345" class="icon-label">Loans & Bureau</text>
+                        </g>
+
+                        <foreignObject id="output-section" x="250" y="460" width="300" height="140">
+                             <div class="output-card">
+                                <h4>Actionable Insights Delivered</h4>
+                                <ul>
+                                    <li><span class="emoji">✅</span> Fair Lending Decisions</li>
+                                    <li><span class="emoji">📊</span> Improved Risk Prediction</li>
+                                    <li><span class="emoji">🌍</span> Financial Inclusion</li>
+                                </ul>
+                            </div>
+                        </foreignObject>
+                    </svg>
                 </div>
             </section>
 
@@ -54,152 +113,13 @@
     </div>
 
     <div id="slides-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
-        <div class="container mx-auto">
-            <button id="back-to-landing-from-slides" class="mb-6 text-blue-400 hover:text-blue-300 font-bold">&larr; Back to Home</button>
-            <div class="methodology-hero glass-card rounded-2xl p-8 mb-8">
-                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                    <div>
-                        <div class="pill">Methodology</div>
-                        <h2 class="text-3xl lg:text-4xl font-extrabold text-white mt-2">From Signals to Decisions</h2>
-                        <p class="text-slate-300 mt-2 max-w-3xl">A transparent, data‑driven framework that models borrower risk dynamically using interpretable components and ODE‑based evolution.</p>
-                    </div>
-                    <div class="score-card-compact">
-                        <div class="score-display">
-                            <div class="score-number">RK45</div>
-                            <div class="score-subtitle">Solver Engine</div>
-                        </div>
-                        <div class="risk-summary">
-                            <div class="risk-badge badge-green-400">Interpretable</div>
-                            <div class="risk-detail">Glass‑box modelling</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <section class="glass-card rounded-2xl p-6 mb-8">
-                <h3 class="section-title">State Equation</h3>
-                <p class="equation-center">$$\Psi_t = \alpha\,\lVert X_t \rVert + \beta\,\sigma_t + \gamma\,\dot R_t + \delta\,\Phi_t + \varepsilon\,P_t + \zeta\,\Omega_t + \eta\,F_t$$</p>
-                <div class="grid md:grid-cols-2 gap-6 mt-4">
-                    <div class="method-card">
-                        <h4 class="method-title">Latent Preferences \((P_t)\)</h4>
-                        <p class="method-equation">$$P_t = \frac{1}{1 + e^{-(\beta_0 + \beta_1\,\text{Flag}+\cdots)}}$$</p>
-                        <ul class="method-bullets">
-                            <li>Categorized expenditure from merchant codes</li>
-                            <li>Card/QR spending patterns</li>
-                            <li>FMCG purchase patterns</li>
-                        </ul>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Debt Burden \((\lVert X_t \rVert)\)</h4>
-                        <p class="method-equation">$$\lVert X_t \rVert = \frac{\sum_i E_i}{\text{Monthly Income}}$$</p>
-                        <ul class="method-bullets">
-                            <li>Loan contracts, bureau snapshots</li>
-                            <li>EMI detection from bank statements</li>
-                            <li>Telecom postpaid bills</li>
-                        </ul>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Foresight Score \((F_t)\)</h4>
-                        <p class="method-equation">$$\frac{dF_t}{dt} = \psi_1 C_t - \psi_2 U_t - \lambda F_t$$</p>
-                        <ul class="method-bullets">
-                            <li>FD top‑ups, recurring deposits</li>
-                            <li>Advance utility payments</li>
-                            <li>Insurance premium regularity</li>
-                        </ul>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Peer Contagion \((\Phi_t)\)</h4>
-                        <p class="method-equation">$$\frac{d\Phi_t}{dt} = \nu\,(\overline{\Phi} - \Phi_t)$$</p>
-                        <ul class="method-bullets">
-                            <li>Geo‑aggregates at PIN‑code level</li>
-                            <li>MFI default rates, mobility, MSME trends</li>
-                            <li>Distress keywords; payday loan spikes</li>
-                        </ul>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Financial Fatigue \((\Omega_t)\)</h4>
-                        <p class="method-equation">$$\frac{d\Omega_t}{dt} = \theta_1\,\#\text{Shocks} - \theta_2\,\frac{1}{t_r}$$</p>
-                        <ul class="method-bullets">
-                            <li>Consented UPI & transactional SMS</li>
-                            <li>Macro and local shock indices</li>
-                        </ul>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Recovery Rate \((\dot R_t)\)</h4>
-                        <p class="method-equation">$$\frac{dR_t}{dt} = -\lambda R_t + \omega S_t$$</p>
-                        <ul class="method-bullets">
-                            <li>Repayment histories, post‑arrears recharges</li>
-                            <li>Utility bill catch‑ups; co‑op credit logs</li>
-                        </ul>
-                    </div>
-                    <div class="method-card md:col-span-2">
-                        <h4 class="method-title">Income Volatility \((\sigma_t)\)</h4>
-                        <p class="method-equation">$$\frac{d\sigma_t}{dt} = \kappa\,(\lvert\Delta I_{t-1}\rvert - \sigma_t)$$</p>
-                        <ul class="method-bullets">
-                            <li>Payroll deposits, GST returns</li>
-                            <li>Seasonal wage patterns, bank credits</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <div class="section-divider"></div>
-
-            <section class="glass-card rounded-2xl p-6 mb-8">
-                <h3 class="section-title">Forecasting Engine</h3>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div class="method-card">
-                        <h4 class="method-title">Calibration: Data over Assumptions</h4>
-                        <ol class="method-list">
-                            <li><strong>Discretize</strong> continuous ODEs to discrete time.</li>
-                            <li><strong>Regress</strong> to learn best‑fit parameters from history.</li>
-                        </ol>
-                        <p class="method-equation">$$\sigma_t - \sigma_{t-1} \approx \kappa\,(\lvert\Delta I_{t-1}\rvert - \sigma_{t-1})$$</p>
-                        <div class="method-note">Adaptive RK45 step‑size: large steps in stable periods, finer during shocks.</div>
-                    </div>
-                    <div class="method-card">
-                        <h4 class="method-title">Elastic Net Training</h4>
-                        <p class="method-equation">$$\hat{\beta} = \arg\min_{\beta}\,\Big(\lVert y - X\beta \rVert_2^2 + \lambda_1\lVert\beta\rVert_1 + \lambda_2\lVert\beta\rVert_2^2\Big)$$</p>
-                        <ul class="method-bullets">
-                            <li>Balances sparsity (L1) and stability (L2)</li>
-                            <li>Robust when predictors are correlated</li>
-                            <li>Interpretable and production‑friendly</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="method-card mt-6">
-                    <h4 class="method-title">Model Landscape (Snapshot)</h4>
-                    <div class="method-table">
-                        <div class="row header"><span>Model</span><span>Performance</span><span>Interpretability</span><span>Suitability</span></div>
-                        <div class="row"><span>Logistic Reg.</span><span>Med</span><span>Glass‑Box</span><span>Baseline</span></div>
-                        <div class="row highlight"><span>ElasticNet</span><span>High</span><span>Glass‑Box</span><span>Chosen</span></div>
-                        <div class="row"><span>Random Forest</span><span>High</span><span>Black‑Box</span><span>Not Suitable</span></div>
-                        <div class="row"><span>LightGBM/XGBoost</span><span>V. High</span><span>Black‑Box</span><span>Benchmark</span></div>
-                        <div class="row"><span>Neural Network</span><span>Variable</span><span>Black‑Box</span><span>Not Suitable</span></div>
-                    </div>
-                </div>
-            </section>
         </div>
-    </div>
-        </div>
-    </div>
 
     <div id="monitoring-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
-        <div class="container mx-auto">
-            <button id="back-to-landing-btn" class="mb-6 text-blue-400 hover:text-blue-300">&larr; Back to Home</button>
-            <h2 class="text-3xl font-bold text-white mb-6">Risk Monitoring Dashboard</h2>
-            <div id="applicant-list" class="space-y-3">
-                </div>
         </div>
-    </div>
 
     <div id="report-page" class="hidden min-h-screen p-4 sm:p-6 lg:p-8 bg-gray-900">
-         <div class="container mx-auto">
-            <button id="back-to-monitoring-btn" class="mb-6 text-blue-400 hover:text-blue-300 font-bold">&larr; Back to Dashboard</button>
-            <div id="report-content-wrapper">
-                </div>
         </div>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -208,8 +128,6 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/utils/BufferGeometryUtils.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/math/MeshSurfaceSampler.js"></script>
     
     <script src="data.js"></script>
     <script src="script.js"></script>
