@@ -54,7 +54,7 @@ export default function App() {
 
   useEffect(() => {
     const files = ["kpis", "enterprises", "flags", "calendar", "details", "stress"];
-    Promise.all(files.map((f) => fetch(`/data/${f}.json`).then((r) => r.json())))
+    Promise.all(files.map((f) => fetch(`${import.meta.env.BASE_URL}data/${f}.json`).then((r) => r.json())))
       .then((res) => setData(Object.fromEntries(files.map((f, i) => [f, res[i]]))));
   }, []);
 
