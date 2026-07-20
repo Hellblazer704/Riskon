@@ -1,0 +1,703 @@
+ent_id,etype,month,p50,p_deficit,drivers,action
+3,kharif_farmer,2026-05-01,-10481.953788031296,1.0,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-05-01,-9457.062246643367,0.9999999999999782,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-06-01,-14026.417955445719,0.9999999999867435,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-06-01,-17321.451791482225,0.9999999999691292,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-05-01,-12729.69242605709,0.9999999998169176,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-06-01,-22598.639367443426,0.999999999591992,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-06-01,-15005.439552606917,0.9999999995889973,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-06-01,-12379.440677139795,0.9999999993900034,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-06-01,-17630.174973880185,0.9999999991142794,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-06-01,-17375.158187334284,0.9999999990811668,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-06-01,-19174.01525062689,0.9999999989490929,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-06-01,-19376.29248355797,0.9999999985457174,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-06-01,-13959.829721097387,0.9999999976237792,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-06-01,-14505.54067317679,0.9999999969480083,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-06-01,-22169.398020479104,0.9999999966734521,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-06-01,-23575.200114400857,0.9999999966480906,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-06-01,-16554.327056830527,0.9999999960439865,rainfall deficit last month; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-06-01,-19557.50169266831,0.9999999951743449,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-06-01,-22792.209905539807,0.9999999947575328,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+114,dairy_shg,2026-06-01,-13298.8987239482,0.9999999943932845,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-06-01,-22535.315298312864,0.9999999920383793,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-05-01,-9694.84101829452,0.9999999916537579,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+3,kharif_farmer,2026-06-01,-22691.31894840891,0.9999999914786328,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-06-01,-17688.319300199088,0.9999999912746504,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-06-01,-16395.518212347783,0.9999999911210083,rainfall deficit last month; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-06-01,-19055.72816853839,0.999999986845837,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-06-01,-21966.26529637597,0.9999999851792097,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+10,kharif_farmer,2026-06-01,-10486.056400169475,0.9999999840215139,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-06-01,-24133.05685250952,0.9999999827367968,mandi price falling; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-05-01,-11918.803725851258,0.9999999806379046,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-06-01,-24789.924285312893,0.9999999801408026,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-05-01,-8665.878474039873,0.9999999797473548,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-06-01,-21038.10827115792,0.9999999690300201,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+76,dairy_shg,2026-06-01,-12059.283519671071,0.9999999663467405,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-06-01,-19060.99015421905,0.9999999549071754,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-05-01,-11894.594263913325,0.9999999471516752,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+99,dairy_shg,2026-06-01,-16650.05406231117,0.9999999234739195,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+110,dairy_shg,2026-06-01,-10559.948868996496,0.9999999186437901,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+75,dairy_shg,2026-06-01,-12286.239480227046,0.9999999094191608,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-06-01,-22070.48214549399,0.9999999046666449,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-06-01,-24758.39303657467,0.9999998627133407,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-06-01,-17283.352197622375,0.9999997930619805,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-06-01,-22449.435865701602,0.9999997255527175,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-03-01,-7080.687923193064,0.9999997194969475,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-06-01,-13969.61941498906,0.9999996994256909,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-05-01,-13013.437074167026,0.9999995828521993,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+6,kharif_farmer,2026-06-01,-13471.38311468773,0.9999995650237519,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-05-01,-12771.347286567949,0.9999994926274972,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-05-01,-9248.31440398164,0.9999992193861716,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+112,dairy_shg,2026-06-01,-11030.9455200591,0.999999212209778,rainfall deficit last month; mandi price falling; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+26,kharif_farmer,2026-06-01,-13485.769481776188,0.9999992048332005,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+38,kharif_farmer,2026-06-01,-10827.669060008684,0.9999991090300019,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-05-01,-9499.714386112086,0.9999990238323682,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-05-01,-11343.014411474305,0.9999988563999529,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+21,kharif_farmer,2026-06-01,-13505.507139999321,0.9999986087353196,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-05-01,-7212.535274000264,0.9999982613203651,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-05-01,-11300.998726805035,0.9999980107248952,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-06-01,-13825.724370658554,0.9999972295139462,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+25,kharif_farmer,2026-06-01,-12422.855166880308,0.9999970154430893,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-06-01,-22979.341827827513,0.9999964385537713,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-06-01,-24113.92536909509,0.9999960254460718,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-06-01,-18234.086617104014,0.9999959746453904,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-05-01,-8214.41381281515,0.9999946563309218,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-06-01,-20733.82325881614,0.9999934864918555,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+47,kharif_farmer,2026-06-01,-11245.180814334133,0.9999912042347885,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-05-01,-7330.620208626683,0.999990640259064,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-05-01,-6337.219121228337,0.9999888149160808,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+87,dairy_shg,2026-06-01,-9465.886079560023,0.9999872673634789,rainfall deficit last month; mandi price falling; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-06-01,-22236.548291212534,0.9999870068223752,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-06-01,-16527.4792976999,0.9999836577060373,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-06-01,-24183.666773083412,0.9999824274189775,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-06-01,-27509.93309384504,0.9999818073545236,mandi price falling; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-06-01,-11080.363311201038,0.9999795039832565,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-06-01,-13273.094068578212,0.9999776195111652,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+91,dairy_shg,2026-06-01,-10137.005723714748,0.9999616909660985,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+95,dairy_shg,2026-06-01,-10665.472377159567,0.9999534441512896,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-06-01,-12722.006875929052,0.9999394143586239,rainfall deficit last month; mandi price falling; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-06-01,-13304.34089023947,0.9999366888021731,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+45,kharif_farmer,2026-06-01,-21020.948417214822,0.9999274653111245,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-05-01,-11337.769052273308,0.9999244725645042,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+74,dairy_shg,2026-06-01,-8258.330095219962,0.9999073882291369,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-06-01,-20736.33709993034,0.9998988065373194,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+26,kharif_farmer,2026-03-01,-5449.140217153378,0.99989207688169,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-05-01,-10954.650502368519,0.9998886171415051,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+79,dairy_shg,2026-06-01,-9073.77869610218,0.9998732099192351,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-05-01,-8154.352738423196,0.9998696927360827,rainfall deficit last month; mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-01-01,-10924.204878057199,0.9998687203065961,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-06-01,-29351.215669436166,0.9998667853837812,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-01-01,-6846.12036122453,0.999862344931552,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-05-01,-7115.263989253537,0.9998247895372536,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-05-01,-7304.931413793288,0.9998145806231341,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+32,kharif_farmer,2026-06-01,-11831.72687904238,0.9997624674731118,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+49,kharif_farmer,2026-06-01,-10114.818066529051,0.9997465328496742,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+88,dairy_shg,2026-06-01,-8958.24387578084,0.9997121348253044,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-05-01,-9665.314382404405,0.999703129827115,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-05-01,-10199.217450186268,0.9996627701390361,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+3,kharif_farmer,2026-03-01,-6654.951026649197,0.9996564661295481,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+97,dairy_shg,2026-06-01,-8586.593049672587,0.9996408704716162,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+85,dairy_shg,2026-06-01,-9021.028170665677,0.9996290352746164,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-06-01,-29324.994085325972,0.9995876161197981,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-05-01,-11332.663286815443,0.9995419245664691,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+75,dairy_shg,2026-05-01,-7702.478609212271,0.9995326267541693,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+21,kharif_farmer,2026-03-01,-5701.309227534895,0.999492630793195,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-05-01,-9972.864239851915,0.9994793613515486,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-05-01,-6158.578744346887,0.9994182899010072,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-01-01,-4625.182811019444,0.9994141941624565,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-05-01,-6425.286398356082,0.9993848637815295,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+3,kharif_farmer,2026-02-01,-9244.932836329115,0.9993189020374146,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+78,dairy_shg,2026-06-01,-11994.207803733514,0.9993168094943338,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-03-01,-5585.12640889927,0.999283124654681,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-05-01,-11225.647749531845,0.9992770853153906,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-01-01,-6229.564160423649,0.9992477936752188,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-05-01,-6298.630569576505,0.9992150751017543,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+56,kharif_farmer,2026-06-01,-23509.908040763476,0.9991965571400354,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+101,dairy_shg,2026-06-01,-8195.778882504144,0.9991725197497409,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+86,dairy_shg,2026-06-01,-8599.580060334165,0.999114340817919,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-03-01,-6482.0275301803085,0.9990656614282188,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-06-01,-24491.967001290403,0.9990291868565309,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+79,dairy_shg,2026-05-01,-6461.343509643365,0.999000440504463,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+83,dairy_shg,2026-06-01,-8203.941044628145,0.9989812779163382,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-02-01,-7186.541129790203,0.998870409235558,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-03-01,-4650.267004434734,0.998862167894573,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-05-01,-8323.1628019376,0.9988080936341769,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-01-01,-8233.339832615924,0.9988007049373988,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-02-01,-7112.938785009311,0.9987721238962372,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-02-01,-12471.777470249857,0.9987690947757201,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-01-01,-8936.580571769658,0.9987513670275489,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-05-01,-7796.869420643648,0.9987192504936793,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-05-01,-6553.1334392361705,0.9985008930626347,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-05-01,-12533.347745720273,0.9984539116015059,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-03-01,-4090.632531904019,0.9984466709124793,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+26,kharif_farmer,2026-05-01,-5758.275232092331,0.9984430112579159,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-06-01,-29230.38478711724,0.998361137862426,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+21,kharif_farmer,2026-05-01,-5604.484495619789,0.9983424745174837,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+107,dairy_shg,2026-06-01,-8759.191058093362,0.998259066222656,mandi price falling; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+113,dairy_shg,2026-06-01,-5360.047868596502,0.9982589231074034,rainfall deficit last month; UPI inflows declining; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+110,dairy_shg,2026-05-01,-7407.888622727387,0.9982406227553711,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+64,dairy_shg,2026-06-01,-10616.775548315934,0.9982040175659405,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-05-01,-6038.2059199436235,0.9980896216427086,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+62,dairy_shg,2026-06-01,-10728.901761442541,0.9979388479021685,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+74,dairy_shg,2026-05-01,-5514.80426638063,0.9979314683122237,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-01-01,-5533.181294528436,0.9979246881920033,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-05-01,-7019.44206271144,0.9977638508297393,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+77,dairy_shg,2026-06-01,-7945.381470614483,0.9977460334158157,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+10,kharif_farmer,2026-05-01,-4400.039475406319,0.9977148029012501,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-03-01,-5724.29076634278,0.9975890122004665,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-03-01,-9519.853507626774,0.9975494429218428,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-03-01,-5655.112819716089,0.9975293162241615,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-02-01,-10962.776713936695,0.9975148903724362,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-03-01,-4706.154884598743,0.9974337487767937,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-05-01,-9070.883669235998,0.997355760177819,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+91,dairy_shg,2026-05-01,-6810.0959582288715,0.9973407583223819,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-03-01,-4258.860316604836,0.9973052963848323,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+82,dairy_shg,2026-06-01,-4748.717127245382,0.9973036968977128,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-02-01,-4826.119516638291,0.9972183662110171,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-03-01,-5725.096288282072,0.9970618271616696,rainfall deficit last month; mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+38,kharif_farmer,2026-03-01,-5734.400937714687,0.996837690555488,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-02-01,-9623.65227717248,0.9963909454326068,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-01-01,-10940.248431143598,0.9962777941115907,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+112,dairy_shg,2026-05-01,-7108.299006506064,0.9961910539722484,rainfall deficit last month; mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-03-01,-8804.785140650394,0.9961898597320356,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-05-01,-6160.327083862304,0.9960770082720597,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+76,dairy_shg,2026-05-01,-6361.045769087369,0.9960646901865511,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+117,dairy_shg,2026-06-01,-9229.84206565764,0.9959791952292956,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-01-01,-8426.791515541578,0.9959157951291459,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-05-01,-9390.004394462272,0.9959055848570871,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-02-01,-6634.0233501252405,0.9958329672062509,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-03-01,-8493.88089506342,0.995814449439625,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+114,dairy_shg,2026-05-01,-8019.4566302382955,0.9957052174919688,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-05-01,-5982.335941705629,0.9956619914090645,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-02-01,-7658.5285049783115,0.9954327336820397,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-05-01,-8008.935297798173,0.9953333488417792,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+84,dairy_shg,2026-06-01,-5642.244539550319,0.9949423395863175,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-02-01,-5769.537087133882,0.9947916179693582,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-02-01,-10040.197084697182,0.9946209788085588,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-03-01,-4503.702222094692,0.994544224652154,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-03-01,-7369.452867991422,0.9945118679206947,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+3,kharif_farmer,2026-01-01,-7382.553186631719,0.9944169339779658,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-01-01,-5038.6962877400565,0.9943678208177165,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+71,dairy_shg,2026-06-01,-7841.646611443887,0.9942408715950324,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-03-01,-7573.169044809758,0.9940290794900685,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+62,dairy_shg,2026-05-01,-7927.3511685076455,0.9938920521811855,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-01-01,-8330.39322592946,0.9938820717910493,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-04-01,-7536.897138657904,0.9936682116450827,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-01-01,-5577.12559350762,0.9936401766918707,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+120,dairy_shg,2026-06-01,-7520.088016455153,0.9931182330829296,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+118,dairy_shg,2026-06-01,-9714.798537072833,0.9928554993607092,repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-05-01,-5602.549277441743,0.9922277670950037,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+94,dairy_shg,2026-06-01,-6680.059018276387,0.992002601027845,repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+96,dairy_shg,2026-06-01,-7835.250664062864,0.991480191378872,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+99,dairy_shg,2026-05-01,-8948.337049683563,0.9911339178929373,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+95,dairy_shg,2026-05-01,-7648.898658491453,0.9907941934381012,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-02-01,-6302.6030594633185,0.9907072126690887,rainfall deficit last month; mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-02-01,-5622.98651019078,0.9905320693898041,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+21,kharif_farmer,2026-02-01,-5942.145784467645,0.9901493113004948,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-01-01,-9015.071216886816,0.9900111528925888,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-04-01,-9540.59030093991,0.9893392961477842,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+97,dairy_shg,2026-05-01,-5221.838285189601,0.9891204073766465,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+41,kharif_farmer,2026-06-01,-10943.758078908728,0.9888342919933473,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-02-01,-6135.100638455583,0.9887212847660828,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-03-01,-3277.6361419517325,0.9887007590004404,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-02-01,-8649.12219557899,0.9885250293759645,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+98,dairy_shg,2026-06-01,-6319.143301287215,0.9885169321471452,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+106,dairy_shg,2026-06-01,-5174.418546724241,0.988419710932289,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-02-01,-5464.117737205465,0.9883384253368446,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-03-01,-6708.430771476562,0.9877398828475061,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-02-01,-7516.214112419321,0.9876701407151709,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-05-01,-5716.976586176031,0.9876600859643234,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-02-01,-5360.74519520418,0.987602713592003,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-02-01,-4282.251493139315,0.9875769906920796,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-01-01,-7954.841214194061,0.9874647427934995,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+64,dairy_shg,2026-05-01,-8293.029079509082,0.9874413795950397,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-05-01,-7644.808413811343,0.9874346993841249,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+103,dairy_shg,2026-06-01,-7687.892752277609,0.9868666277089484,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+119,dairy_shg,2026-06-01,-7318.4793857282075,0.9867479094772619,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+111,dairy_shg,2026-06-01,-7934.692605433279,0.9865714781935672,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-03-01,-3760.705088732848,0.9864494433270322,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-03-01,-6536.5532788762375,0.986340843335395,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+115,dairy_shg,2026-06-01,-5136.371632992697,0.9863023039555356,mandi price falling; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-05-01,-5237.240582208534,0.9861127219276566,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+19,kharif_farmer,2026-04-01,-7906.568631071401,0.9860661516145092,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-03-01,-4036.564455832027,0.9859586532402401,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+25,kharif_farmer,2026-03-01,-2984.9404606837784,0.9859525288903556,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+26,kharif_farmer,2026-02-01,-5929.292414392253,0.9858233787274606,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+63,dairy_shg,2026-06-01,-7922.202372800123,0.9854780257382396,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+40,kharif_farmer,2026-04-01,-9132.186568065035,0.9853033134587109,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-01-01,-4681.392306374427,0.9852416278614786,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-03-01,-8159.822610078439,0.9849923285459566,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-02-01,-10655.45953271455,0.9849485942532369,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-03-01,-4449.024398787414,0.9845594178194567,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+83,dairy_shg,2026-05-01,-5502.42268424778,0.9844165431533101,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-02-01,-8572.404999258317,0.9842852564293549,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-02-01,-10046.962693806949,0.9836960917916173,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+89,dairy_shg,2026-06-01,-6724.369381474709,0.98357729043164,rainfall deficit last month; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+3,kharif_farmer,2026-04-01,-6997.727491847034,0.9834822955509326,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-01-01,-5173.602831965731,0.9834020521288901,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+6,kharif_farmer,2026-03-01,-3629.7784062476985,0.98316260668186,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+27,kharif_farmer,2026-04-01,-9163.788865448205,0.9830888614536776,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-02-01,-5589.235582311963,0.9828521760994359,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+78,dairy_shg,2026-05-01,-8084.432941236844,0.9824852621070952,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+72,dairy_shg,2026-06-01,-7455.511328888289,0.9820009337257931,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+66,dairy_shg,2026-06-01,-5632.07845120758,0.9818780003555351,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-02-01,-5157.253067827103,0.9818767243786671,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-02-01,-4297.916106391592,0.9809573993398062,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-03-01,-4087.1538321610014,0.9805626664445113,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-04-01,-6542.590640884997,0.9805533334729457,rainfall deficit last month; mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+56,kharif_farmer,2026-05-01,-7895.762831166706,0.9804131321575017,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-01-01,-6999.103073271599,0.9802064397275628,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-03-01,-4508.669024187331,0.9801267386668445,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+80,dairy_shg,2026-06-01,-3710.9783287834684,0.9800207286898862,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+75,dairy_shg,2026-02-01,-5916.169222042692,0.9798785240349642,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-02-01,-12086.415604538244,0.9796220641402746,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-03-01,-4924.459472891683,0.9795433204168787,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-03-01,-3836.6832059670173,0.9794873381750309,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+96,dairy_shg,2026-05-01,-5195.903225381677,0.9793844901143176,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-05-01,-5354.700384259165,0.9786992672071854,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-02-01,-6668.667115229032,0.9785407155246006,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-05-01,-4211.633768748032,0.9784090885954583,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+101,dairy_shg,2026-05-01,-5175.400970787056,0.9783616985395229,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+61,dairy_shg,2026-06-01,-5085.008374848908,0.9780138570810516,mandi price falling; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-01-01,-4846.107120351682,0.9774733687476667,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-02-01,-4800.772021875863,0.9772974726169771,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-05-01,-4920.746803950572,0.9769412292962574,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-01-01,-5354.498766644878,0.9765172362529615,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+70,dairy_shg,2026-06-01,-6942.1549168975,0.9762122840919552,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-02-01,-7851.314174281233,0.9757668272470554,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+5,kharif_farmer,2026-04-01,-6777.9640047141465,0.9755500851081431,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-03-01,-7044.075580485977,0.9752658591153175,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+24,kharif_farmer,2026-04-01,-7701.658771661931,0.9751947836921503,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-01-01,-7507.789133263624,0.9748735643942839,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-02-01,-5299.963973148284,0.9744003173743118,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-03-01,-4980.252298735567,0.9739882844034142,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-03-01,-6369.183373623421,0.9729945582836121,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+31,kharif_farmer,2026-01-01,-4360.93696024864,0.9729005910280006,rainfall deficit last month; mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+12,kharif_farmer,2026-04-01,-8532.806961469507,0.9727762136120393,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+65,dairy_shg,2026-06-01,-5949.888611862107,0.9727500289358939,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-01-01,-4753.548046435002,0.9725561964490588,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+69,dairy_shg,2026-06-01,-6508.905592302352,0.9721986821653424,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+41,kharif_farmer,2026-05-01,-5852.840683124996,0.9695217566349515,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-04-01,-6613.821949485692,0.9691944247395201,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+117,dairy_shg,2026-05-01,-6603.359192491747,0.9684997442453941,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+140,kirana_trader,2026-06-01,-9709.037180176918,0.9683189524367019,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-03-01,-5832.9159736168995,0.9674309706220796,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-03-01,-3394.9861568844026,0.9666686405036712,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+36,kharif_farmer,2026-04-01,-7788.03245121785,0.966574423712401,mandi price falling; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-02-01,-7906.469500457683,0.9655130726415597,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+87,dairy_shg,2026-05-01,-4098.458634055301,0.9647562741721304,rainfall deficit last month; mandi price falling,Field visit within 2 weeks; assess restructuring / top-up need
+105,dairy_shg,2026-06-01,-5410.422236115328,0.963990205477218,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+38,kharif_farmer,2026-05-01,-4204.627570558468,0.9629963167438075,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+86,dairy_shg,2026-05-01,-5587.013004899084,0.9622813110641986,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+109,dairy_shg,2026-06-01,-6557.164093999349,0.9622028769536173,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+16,kharif_farmer,2026-04-01,-5897.722787462531,0.9619497240285594,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+92,dairy_shg,2026-06-01,-3972.815906592232,0.9619306659172773,rainfall deficit last month; missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+13,kharif_farmer,2026-01-01,-5682.292664411631,0.9619248448340073,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-02-01,-8830.093053197375,0.9616433921002607,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+10,kharif_farmer,2026-02-01,-3824.5683103434094,0.9616227686035748,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+47,kharif_farmer,2026-05-01,-3686.0072602893665,0.9606160115663898,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+34,kharif_farmer,2026-01-01,-6280.002300028439,0.9603331789343035,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-01-01,-3949.5860450918008,0.9599292576156635,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-02-01,-5217.503815474845,0.9597385675536085,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-01-01,-4523.294732165079,0.9595279338698924,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-03-01,-3466.4082370818087,0.9592132391504333,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+134,kirana_trader,2026-06-01,-9123.600916900063,0.9589204270186568,mandi price falling; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-04-01,-7333.208637833309,0.9582972814674361,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+75,dairy_shg,2026-03-01,-4828.258151988398,0.9581982799180803,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+37,kharif_farmer,2026-04-01,-7033.674440139782,0.958181586534914,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+85,dairy_shg,2026-05-01,-5594.108963043334,0.956684895912011,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+25,kharif_farmer,2026-05-01,-3875.994673238479,0.9559676126007715,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-03-01,-5911.159786078851,0.9559509638797925,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-01-01,-6559.41962013891,0.9554115343587798,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+55,kharif_farmer,2026-04-01,-5510.07757176315,0.9547485630927025,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+116,dairy_shg,2026-06-01,-5643.067757620911,0.9544349536469336,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+68,dairy_shg,2026-06-01,-3822.255518750653,0.9537046478774882,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-02-01,-6847.815117170391,0.9531945050602472,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+63,dairy_shg,2026-05-01,-5314.410617441134,0.9524612683236048,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-02-01,-7967.011598451941,0.9524428111340845,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+156,kirana_trader,2026-06-01,-7418.48781847649,0.9512138126282258,rainfall deficit last month; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-04-01,-5951.255652259426,0.9505411979335268,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-04-01,-8549.704457808695,0.9497692308784373,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-04-01,-9108.423717252179,0.9486768186603731,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-01-01,-6307.202475936014,0.947559692632394,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+93,dairy_shg,2026-06-01,-5601.75323210793,0.9470551844055793,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+10,kharif_farmer,2026-03-01,-3587.11016169414,0.9465781863573228,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+6,kharif_farmer,2026-05-01,-4141.67357672943,0.9465618039645738,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-03-01,-2655.950382741855,0.9464964877538139,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+140,kirana_trader,2026-05-01,-8214.888599380178,0.9464281679231743,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-01-01,-5388.55494450731,0.9457479708119607,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-05-01,-3859.0772412000797,0.9445204206127721,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+118,dairy_shg,2026-05-01,-7201.735376020979,0.9443356575852881,repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-02-01,-6156.885794251077,0.9441643856617202,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-04-01,-6785.825961470109,0.9441589941079447,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-04-01,-5068.868034219374,0.943696887565718,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-02-01,-3169.5669101557833,0.9435882052361513,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-04-01,-6497.661261090877,0.9426168787079835,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-02-01,-8975.609023235324,0.9415598855336748,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+73,dairy_shg,2026-06-01,-5631.265369197944,0.9413041963625471,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+7,kharif_farmer,2026-02-01,-6565.445075955095,0.9411564186472556,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-04-01,-6276.591856919103,0.9410782384383672,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-03-01,-5712.357944439434,0.94082383877574,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-02-01,-3835.776082615306,0.9403540458772736,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+176,kirana_trader,2026-01-01,-11156.594638090106,0.9402181233971602,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-02-01,-4953.3317581961555,0.9400894846195986,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-02-01,-4014.602987347694,0.9390843636828717,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+21,kharif_farmer,2026-04-01,-4878.1935964387085,0.9390587311039359,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+54,kharif_farmer,2026-04-01,-5474.481663020438,0.9390419987825195,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-04-01,-7384.34874150217,0.9387562272334221,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-01-01,-3186.938234398426,0.9387176402026081,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+30,kharif_farmer,2026-03-01,-4808.547650911376,0.9379806652848571,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+39,kharif_farmer,2026-04-01,-4484.3855072787055,0.937635727904089,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+26,kharif_farmer,2026-04-01,-4890.022006203788,0.9374213901474707,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-04-01,-4954.159833962146,0.9372273323554722,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+22,kharif_farmer,2026-04-01,-4960.138324194611,0.936641572433928,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+72,dairy_shg,2026-05-01,-5036.332830155007,0.9353944731456213,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-01-01,-4968.321600023447,0.9349599830000463,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+17,kharif_farmer,2026-04-01,-4633.46737644186,0.9346015698808086,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-03-01,-6776.795934422603,0.9339243586185567,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+32,kharif_farmer,2026-05-01,-3589.98667400494,0.9338648481571629,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-02-01,-8669.76278388899,0.9336674217395227,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+121,kirana_trader,2026-05-01,-6047.86083413617,0.9334541750512939,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+51,kharif_farmer,2026-04-01,-6670.35325464717,0.9327684891943445,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+4,kharif_farmer,2026-04-01,-5047.1628050414665,0.9309478357991474,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+77,dairy_shg,2026-05-01,-4260.350690570637,0.9297828930942144,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+176,kirana_trader,2026-05-01,-7011.692149196835,0.9291394747275386,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-02-01,-10256.706981892685,0.9285047733018724,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-04-01,-6908.908146476457,0.9279920396180068,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+160,kirana_trader,2026-01-01,-7012.393853973244,0.9274403460920929,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+102,dairy_shg,2026-06-01,-3825.2898809096187,0.9272360570613438,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+176,kirana_trader,2026-06-01,-8399.553102415783,0.9269709808212081,rainfall deficit last month; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+121,kirana_trader,2026-06-01,-7337.111427354172,0.9264921121113802,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-02-01,-7037.962689944072,0.9264047128209869,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+75,dairy_shg,2026-04-01,-4413.7997101617375,0.9256797322038591,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+38,kharif_farmer,2026-02-01,-4879.129572986533,0.9248965324457711,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+71,dairy_shg,2026-05-01,-5013.618066243686,0.9248384085085526,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-01-01,-3969.2063810638283,0.9246729537344116,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+136,kirana_trader,2026-01-01,-7045.835039200156,0.9246112618324985,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+14,kharif_farmer,2026-04-01,-4651.314657886729,0.922958812153005,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-03-01,-6253.172000472102,0.9210616962024052,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-04-01,-4835.687306126402,0.921015386551344,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+41,kharif_farmer,2026-03-01,-5167.4801425769865,0.920829203992461,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+107,dairy_shg,2026-05-01,-4611.938012379841,0.920358126331036,mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-02-01,-4277.225217195066,0.920113077254918,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+159,kirana_trader,2026-06-01,-6663.818421985777,0.9196572771957093,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+11,kharif_farmer,2026-01-01,-9471.89458791579,0.9192905209684432,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+28,kharif_farmer,2026-04-01,-4529.444611972996,0.9183156722864889,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+20,kharif_farmer,2026-01-01,-6861.953507402275,0.9173659700898169,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-04-01,-4131.967160936068,0.9167749359497999,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+49,kharif_farmer,2026-05-01,-3216.9673476217044,0.9163698854812299,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+73,dairy_shg,2026-05-01,-4703.2463503512645,0.9154940666211866,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+177,kirana_trader,2026-01-01,-7053.363171118715,0.9145462034832259,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+88,dairy_shg,2026-05-01,-4203.085365319646,0.9145346106823864,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+93,dairy_shg,2026-05-01,-4515.873907857148,0.91412422429587,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+33,kharif_farmer,2026-01-01,-6737.475581933923,0.9136940979126602,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+136,kirana_trader,2026-05-01,-7015.632296191713,0.9125472025254764,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-04-01,-6362.123503796305,0.9116580898595014,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+134,kirana_trader,2026-05-01,-7241.045901389197,0.91111116679888,mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+41,kharif_farmer,2026-04-01,-5705.963027756428,0.9103170775384135,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+38,kharif_farmer,2026-04-01,-4593.653349391078,0.9102264901052766,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+163,kirana_trader,2026-06-01,-3762.7575845707465,0.9101248970113309,rainfall deficit last month; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+103,dairy_shg,2026-05-01,-4499.037558541818,0.9095432575399336,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-03-01,-6690.449272242068,0.9086888493107108,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+136,kirana_trader,2026-06-01,-7899.983039993653,0.9083421581664226,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+29,kharif_farmer,2026-03-01,-4833.930801055996,0.9073637169952021,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+1,kharif_farmer,2026-01-01,-5245.032798633764,0.9073526805583749,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-01-01,-2098.104576197537,0.9068825699912624,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-01-01,-7126.114618689388,0.9053237568086342,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-04-01,-4825.024863805847,0.9045024440442291,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+60,kharif_farmer,2026-04-01,-3964.273042233226,0.903842034173429,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+23,kharif_farmer,2026-04-01,-4417.092790762686,0.903680947177512,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-03-01,-2502.964880518823,0.9022818991718378,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+134,kirana_trader,2026-01-01,-7700.978976326182,0.9019300375365993,mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+176,kirana_trader,2026-02-01,-8370.84727748294,0.9013527119540535,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+116,dairy_shg,2026-05-01,-4242.851516098343,0.8990228234446862,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+104,dairy_shg,2026-01-01,-7262.6864259091,0.8977103613180129,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-04-01,-3886.790700667861,0.8965035474934797,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+18,kharif_farmer,2026-01-01,-3721.736147634977,0.8955224120161062,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-03-01,-3699.267380270574,0.8946649016232623,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+79,dairy_shg,2026-03-01,-3035.153395017528,0.8938033136288379,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+6,kharif_farmer,2026-02-01,-3362.703722068636,0.8905567087070891,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+109,dairy_shg,2026-05-01,-4338.44766385997,0.8886926763845678,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-01-01,-4717.809239584203,0.8882685970853076,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-03-01,-5585.048268246657,0.8877979576267583,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+41,kharif_farmer,2026-02-01,-6149.236057135925,0.8870583774972722,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+35,kharif_farmer,2026-04-01,-3560.9946702122493,0.8859947885734893,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+176,kirana_trader,2026-03-01,-8785.432186263513,0.8853075353388,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+42,kharif_farmer,2026-03-01,-5436.474642296347,0.8851140581920266,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+2,kharif_farmer,2026-04-01,-3701.0114018827758,0.8845028897593297,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-04-01,-4059.8508467446513,0.8827602835481838,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+46,kharif_farmer,2026-04-01,-3815.743861198897,0.8806367756375539,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+65,dairy_shg,2026-05-01,-3821.854751165428,0.8799802151731748,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+45,kharif_farmer,2026-04-01,-6000.210181919301,0.8796069824607213,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-01-01,-8614.096164759945,0.8791350348865907,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-04-01,-4369.8946418957385,0.8783591685919212,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+45,kharif_farmer,2026-05-01,-6894.4283356340575,0.8781422935584164,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+45,kharif_farmer,2026-02-01,-5653.449865014474,0.877154977719173,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+163,kirana_trader,2026-01-01,-3684.1853635468437,0.8742745720681608,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+69,dairy_shg,2026-05-01,-3759.525394989201,0.8720378738660118,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+90,dairy_shg,2026-06-01,-3693.4096912006135,0.870880457013514,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+156,kirana_trader,2026-05-01,-5355.24062376444,0.8707878591273993,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+159,kirana_trader,2026-05-01,-5101.550239509855,0.8692121972134543,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+110,dairy_shg,2026-03-01,-2942.216241594002,0.8690072643003245,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+44,kharif_farmer,2026-01-01,-6127.590752176432,0.8687995284351373,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+47,kharif_farmer,2026-03-01,-2641.756141701437,0.8680237052921432,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+95,dairy_shg,2026-01-01,-4259.441091345209,0.8670981087300869,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+52,kharif_farmer,2026-02-01,-3883.067842753478,0.8669852577730062,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+100,dairy_shg,2026-06-01,-4085.166851860782,0.8667660585889478,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-03-01,-6756.171566916549,0.8660368179777895,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+62,dairy_shg,2026-03-01,-3907.020064050037,0.8660052560353606,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+175,kirana_trader,2026-01-01,-6655.170561033128,0.8658400436599343,repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+25,kharif_farmer,2026-02-01,-3308.0654955512323,0.8644658125045986,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+143,kirana_trader,2026-06-01,-8052.0365825213885,0.8633816809439381,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+173,kirana_trader,2026-01-01,-6016.314697834075,0.8632515001677312,repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+32,kharif_farmer,2026-02-01,-3867.2556238516213,0.8626537727963703,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+67,dairy_shg,2026-06-01,-3060.668511659102,0.8610295184167294,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+89,dairy_shg,2026-05-01,-3270.0547017996787,0.8588875130504228,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+114,dairy_shg,2026-03-01,-4012.765735162004,0.8586504456982862,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+178,kirana_trader,2026-01-01,-4965.319912217844,0.8577249169029673,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-03-01,-2970.4558688639954,0.857036833400123,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+120,dairy_shg,2026-05-01,-3103.1452305289476,0.8567346688498445,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+10,kharif_farmer,2026-04-01,-3184.6401021855017,0.854575672363306,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+57,kharif_farmer,2026-01-01,-2545.569383996955,0.8514195700740634,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+6,kharif_farmer,2026-04-01,-3358.650466851039,0.851392438803768,rainfall deficit last month; missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+15,kharif_farmer,2026-02-01,-4082.8507711013076,0.8495057541466933,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+127,kirana_trader,2026-01-01,-5335.325765729422,0.8489038248648115,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+94,dairy_shg,2026-05-01,-3073.4428018665144,0.8480632243807231,repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+111,dairy_shg,2026-05-01,-3681.6149023192766,0.8471323068558303,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+112,dairy_shg,2026-03-01,-3125.7415059191876,0.8455543971805948,rainfall deficit last month; mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+59,kharif_farmer,2026-04-01,-6704.034886994006,0.8435854732696535,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-02-01,-2906.6643356958275,0.8423377520151719,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+98,dairy_shg,2026-05-01,-2974.07378844838,0.8421340215037112,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+47,kharif_farmer,2026-02-01,-2948.350341381287,0.8418772197062401,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+121,kirana_trader,2026-04-01,-5251.792130318902,0.8407066210849239,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+25,kharif_farmer,2026-04-01,-3197.357554773421,0.8400627071043121,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+9,kharif_farmer,2026-01-01,-6838.670098162173,0.8399533452338315,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+119,dairy_shg,2026-05-01,-3416.8207134105105,0.8390733267877033,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+58,kharif_farmer,2026-04-01,-5687.486645391367,0.8381551285392137,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+169,kirana_trader,2026-01-01,-6155.573022902621,0.8379830273369675,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+114,dairy_shg,2026-04-01,-3680.2776627323765,0.8360803834159004,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+56,kharif_farmer,2026-02-01,-5179.767927427353,0.8319489081665103,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+100,dairy_shg,2026-05-01,-3507.2671761434467,0.8306208218394375,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+32,kharif_farmer,2026-04-01,-3112.0848197651626,0.8304793540405982,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+158,kirana_trader,2026-06-01,-3914.714219499022,0.8302955841641317,monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+53,kharif_farmer,2026-04-01,-3217.3448372457765,0.8283331845862623,rainfall deficit last month,Field visit within 2 weeks; assess restructuring / top-up need
+132,kirana_trader,2026-06-01,-4445.0797956973065,0.8268660789469966,missed SHG deposits; monsoon input-cost season,Field visit within 2 weeks; assess restructuring / top-up need
+47,kharif_farmer,2026-04-01,-3276.3774842613393,0.8261450006389734,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+32,kharif_farmer,2026-03-01,-2761.749045050626,0.824130731006232,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+45,kharif_farmer,2026-03-01,-4859.317362179356,0.8217345597719494,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+43,kharif_farmer,2026-03-01,-3614.9761451168242,0.8187528789576146,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+8,kharif_farmer,2026-01-01,-1820.753919204486,0.8157814902666817,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+79,dairy_shg,2026-04-01,-2876.3140589457053,0.8148190949881834,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+66,dairy_shg,2026-05-01,-2438.8063791369573,0.8147959204973763,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+115,dairy_shg,2026-05-01,-2439.935794617136,0.8139968667975519,mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+143,kirana_trader,2026-05-01,-6521.581053057673,0.8137850533343176,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+170,kirana_trader,2026-01-01,-5208.239830994925,0.8119125994127168,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+112,dairy_shg,2026-04-01,-2548.616933274057,0.8118691489787666,rainfall deficit last month; mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+90,dairy_shg,2026-05-01,-3276.5748761628206,0.8116833546043893,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+99,dairy_shg,2026-01-01,-4152.3074275839335,0.8088813947668573,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+48,kharif_farmer,2026-01-01,-2126.06495815613,0.8088318904442096,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+50,kharif_farmer,2026-01-01,-2526.467146070649,0.8074822517436429,seasonal pattern,Field visit within 2 weeks; assess restructuring / top-up need
+138,kirana_trader,2026-01-01,-4768.712347848385,0.8059797702068289,repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+74,dairy_shg,2026-04-01,-2850.541453948456,0.8048968238318768,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+56,kharif_farmer,2026-03-01,-4967.04661711818,0.8034808562763797,missed SHG deposits,Field visit within 2 weeks; assess restructuring / top-up need
+134,kirana_trader,2026-03-01,-6429.597440694464,0.8034640117610454,mandi price falling; missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+62,dairy_shg,2026-04-01,-3159.490037670179,0.8030534424838951,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+70,dairy_shg,2026-05-01,-2858.4460466689025,0.8008665613079318,missed SHG deposits; repeated recent deficits,Field visit within 2 weeks; assess restructuring / top-up need
+177,kirana_trader,2026-02-01,-5172.711959264599,0.799803159618501,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+180,kirana_trader,2026-01-01,-3640.4675479048683,0.7994817857688675,seasonal pattern,Watch-list; verify via next SHG meeting
+49,kharif_farmer,2026-02-01,-2901.583328213739,0.7994706163717263,rainfall deficit last month; missed SHG deposits,Watch-list; verify via next SHG meeting
+165,kirana_trader,2026-06-01,-4386.152020967006,0.7988800619757654,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+122,kirana_trader,2026-06-01,-3122.1552232406143,0.7988366556573613,UPI inflows declining; missed SHG deposits; repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+25,kharif_farmer,2026-01-01,-1859.710005603571,0.7967832316908865,missed SHG deposits,Watch-list; verify via next SHG meeting
+6,kharif_farmer,2026-01-01,-1801.4321493947514,0.7924518391288253,rainfall deficit last month; missed SHG deposits,Watch-list; verify via next SHG meeting
+163,kirana_trader,2026-05-01,-2644.369391743739,0.7906981810172173,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+105,dairy_shg,2026-05-01,-2642.3057808255794,0.789584756212365,seasonal pattern,Watch-list; verify via next SHG meeting
+110,dairy_shg,2026-04-01,-2562.420003853804,0.787452362323424,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+169,kirana_trader,2026-06-01,-4868.313332733815,0.7865739027441051,rainfall deficit last month; monsoon input-cost season,Watch-list; verify via next SHG meeting
+140,kirana_trader,2026-01-01,-4626.85920444215,0.7855753443659619,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+21,kharif_farmer,2026-01-01,-1975.2750828021012,0.7850782585982972,missed SHG deposits,Watch-list; verify via next SHG meeting
+146,kirana_trader,2026-01-01,-3706.17583581925,0.7840201044550951,seasonal pattern,Watch-list; verify via next SHG meeting
+161,kirana_trader,2026-06-01,-3294.074746315689,0.7821028348440353,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+26,kharif_farmer,2026-01-01,-1479.1322667674672,0.7802554336168834,missed SHG deposits,Watch-list; verify via next SHG meeting
+175,kirana_trader,2026-02-01,-4733.329050261431,0.7784166088748605,repeated recent deficits,Watch-list; verify via next SHG meeting
+45,kharif_farmer,2026-01-01,-4252.8077768450485,0.7782322250227698,seasonal pattern,Watch-list; verify via next SHG meeting
+81,dairy_shg,2026-06-01,-2072.324337510955,0.7773626333776296,repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+143,kirana_trader,2026-01-01,-4313.804494764801,0.7765592147575086,missed SHG deposits,Watch-list; verify via next SHG meeting
+153,kirana_trader,2026-01-01,-3895.1176561388434,0.7750700264373431,missed SHG deposits,Watch-list; verify via next SHG meeting
+140,kirana_trader,2026-03-01,-5864.694032553671,0.7748511444619509,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+135,kirana_trader,2026-01-01,-3211.5683383840096,0.7746691550816537,missed SHG deposits,Watch-list; verify via next SHG meeting
+41,kharif_farmer,2026-01-01,-3030.815269758176,0.7724184975752029,seasonal pattern,Watch-list; verify via next SHG meeting
+153,kirana_trader,2026-06-01,-4210.222827080637,0.7720619140866462,missed SHG deposits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+106,dairy_shg,2026-05-01,-2020.1226555617318,0.7716222732898546,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+99,dairy_shg,2026-04-01,-3966.660937972083,0.7707016879773527,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+170,kirana_trader,2026-02-01,-4941.537891738354,0.767941095611082,seasonal pattern,Watch-list; verify via next SHG meeting
+138,kirana_trader,2026-06-01,-4144.082850627412,0.7678530402699393,repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+113,dairy_shg,2026-05-01,-1694.2306199394257,0.7659948754574866,rainfall deficit last month; UPI inflows declining; repeated recent deficits,Watch-list; verify via next SHG meeting
+134,kirana_trader,2026-02-01,-5281.668109178162,0.7639696179736293,mandi price falling; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+49,kharif_farmer,2026-03-01,-2132.2733192817045,0.7626039558823359,rainfall deficit last month; missed SHG deposits,Watch-list; verify via next SHG meeting
+138,kirana_trader,2026-02-01,-5435.123696304058,0.7607210535647613,repeated recent deficits,Watch-list; verify via next SHG meeting
+56,kharif_farmer,2026-04-01,-4164.859484765179,0.7594340192753928,missed SHG deposits,Watch-list; verify via next SHG meeting
+164,kirana_trader,2026-02-01,-4454.888332059343,0.7590234519757244,missed SHG deposits,Watch-list; verify via next SHG meeting
+160,kirana_trader,2026-06-01,-3568.9246019811835,0.7560824064680945,monsoon input-cost season,Watch-list; verify via next SHG meeting
+121,kirana_trader,2026-03-01,-4540.224852862189,0.7544437669202921,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+153,kirana_trader,2026-02-01,-4681.751967116035,0.7544145215580033,missed SHG deposits,Watch-list; verify via next SHG meeting
+169,kirana_trader,2026-02-01,-4486.123323872386,0.7542810090446346,rainfall deficit last month,Watch-list; verify via next SHG meeting
+126,kirana_trader,2026-06-01,-2829.8243543204962,0.7531217869128352,monsoon input-cost season,Watch-list; verify via next SHG meeting
+114,dairy_shg,2026-02-01,-3069.44322316007,0.7516378446735348,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+173,kirana_trader,2026-06-01,-4319.153095967531,0.747527198642892,repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+143,kirana_trader,2026-02-01,-4691.764545940402,0.7469059545967783,missed SHG deposits,Watch-list; verify via next SHG meeting
+140,kirana_trader,2026-02-01,-5040.944828072492,0.7465124284841294,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+165,kirana_trader,2026-02-01,-4245.612519537082,0.746191344798015,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+154,kirana_trader,2026-06-01,-3368.1449401408786,0.7460851377147056,monsoon input-cost season,Watch-list; verify via next SHG meeting
+136,kirana_trader,2026-02-01,-4773.174951776634,0.74565445009739,seasonal pattern,Watch-list; verify via next SHG meeting
+74,dairy_shg,2026-03-01,-1799.8750836344768,0.7438572594463362,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+99,dairy_shg,2026-03-01,-3002.5315000472433,0.7426078741247577,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+151,kirana_trader,2026-02-01,-4134.198521917529,0.7416100257043683,seasonal pattern,Watch-list; verify via next SHG meeting
+10,kharif_farmer,2026-01-01,-1467.3869964405487,0.7415324831331445,seasonal pattern,Watch-list; verify via next SHG meeting
+62,dairy_shg,2026-02-01,-2586.717535474926,0.7388065205613114,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+118,dairy_shg,2026-04-01,-3225.9931847995977,0.7376921976982515,repeated recent deficits,Watch-list; verify via next SHG meeting
+121,kirana_trader,2026-02-01,-4786.289938468555,0.7367905381978344,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+169,kirana_trader,2026-05-01,-3238.239176230721,0.7355466082909247,rainfall deficit last month,Watch-list; verify via next SHG meeting
+78,dairy_shg,2026-04-01,-2704.3480293515354,0.734441619755193,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+159,kirana_trader,2026-03-01,-4023.578385182455,0.7339281995797053,missed SHG deposits,Watch-list; verify via next SHG meeting
+160,kirana_trader,2026-02-01,-3910.8754513433555,0.7326650852430387,seasonal pattern,Watch-list; verify via next SHG meeting
+171,kirana_trader,2026-02-01,-3900.4685085024194,0.7318335994891995,mandi price falling,Watch-list; verify via next SHG meeting
+144,kirana_trader,2026-06-01,-3311.936616255086,0.7301771512033418,missed SHG deposits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+171,kirana_trader,2026-06-01,-3785.3992977202315,0.7296708290237273,mandi price falling; monsoon input-cost season,Watch-list; verify via next SHG meeting
+173,kirana_trader,2026-02-01,-4154.881843744677,0.7270425357192591,repeated recent deficits,Watch-list; verify via next SHG meeting
+146,kirana_trader,2026-06-01,-3099.6784040155117,0.7268726367994506,monsoon input-cost season,Watch-list; verify via next SHG meeting
+131,kirana_trader,2026-02-01,-4026.797568817069,0.7262808100562074,seasonal pattern,Watch-list; verify via next SHG meeting
+159,kirana_trader,2026-02-01,-3901.7868006659933,0.723833261215318,missed SHG deposits,Watch-list; verify via next SHG meeting
+129,kirana_trader,2026-06-01,-2270.7063052805897,0.7235333038447047,monsoon input-cost season,Watch-list; verify via next SHG meeting
+127,kirana_trader,2026-02-01,-3656.720776134994,0.7229698547629245,seasonal pattern,Watch-list; verify via next SHG meeting
+164,kirana_trader,2026-06-01,-3615.355532210502,0.7224735111905437,missed SHG deposits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+165,kirana_trader,2026-05-01,-2720.3665850327725,0.720554862585564,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+174,kirana_trader,2026-01-01,-2396.700025157756,0.7198828268878746,missed SHG deposits,Watch-list; verify via next SHG meeting
+132,kirana_trader,2026-05-01,-2541.6156368420156,0.7183369124898686,missed SHG deposits,Watch-list; verify via next SHG meeting
+118,dairy_shg,2026-03-01,-3056.8790791390634,0.7181870628044845,repeated recent deficits,Watch-list; verify via next SHG meeting
+137,kirana_trader,2026-06-01,-2801.212895344604,0.7176168614936516,mandi price falling; monsoon input-cost season,Watch-list; verify via next SHG meeting
+95,dairy_shg,2026-04-01,-2555.286233382324,0.7166014716810859,seasonal pattern,Watch-list; verify via next SHG meeting
+64,dairy_shg,2026-02-01,-4280.407906148948,0.7163865248506076,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+102,dairy_shg,2026-05-01,-1622.1776843783175,0.7147733791297864,missed SHG deposits,Watch-list; verify via next SHG meeting
+75,dairy_shg,2026-01-01,-1903.9208175819406,0.7130190852273068,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+95,dairy_shg,2026-03-01,-2353.668155997198,0.7129655939961618,seasonal pattern,Watch-list; verify via next SHG meeting
+92,dairy_shg,2026-05-01,-1661.6238825978628,0.7119409444929581,rainfall deficit last month; missed SHG deposits,Watch-list; verify via next SHG meeting
+64,dairy_shg,2026-04-01,-2797.457877717481,0.7086233787317636,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+140,kirana_trader,2026-04-01,-3273.893101646252,0.7074821305132162,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+61,dairy_shg,2026-05-01,-1373.6351329848533,0.707007817123505,mandi price falling; missed SHG deposits,Watch-list; verify via next SHG meeting
+84,dairy_shg,2026-05-01,-1510.2073148854254,0.7068812851925743,seasonal pattern,Watch-list; verify via next SHG meeting
+90,dairy_shg,2026-04-01,-2430.842480165589,0.7056424640477383,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+176,kirana_trader,2026-04-01,-3604.4694097381425,0.7054106328255834,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+159,kirana_trader,2026-04-01,-2625.882940021836,0.7032060267483478,missed SHG deposits,Watch-list; verify via next SHG meeting
+171,kirana_trader,2026-05-01,-2817.717351514118,0.7014807747343187,mandi price falling,Watch-list; verify via next SHG meeting
+178,kirana_trader,2026-06-01,-2633.5500446009987,0.7011878987768286,monsoon input-cost season,Watch-list; verify via next SHG meeting
+166,kirana_trader,2026-01-01,-2578.9135616736826,0.7002538872244519,seasonal pattern,Watch-list; verify via next SHG meeting
+82,dairy_shg,2026-05-01,-1292.9092244932035,0.6999615591227751,seasonal pattern,Watch-list; verify via next SHG meeting
+68,dairy_shg,2026-05-01,-1481.5662939052431,0.6992620146510138,missed SHG deposits,Watch-list; verify via next SHG meeting
+146,kirana_trader,2026-02-01,-3276.773616987454,0.697590657908447,seasonal pattern,Watch-list; verify via next SHG meeting
+178,kirana_trader,2026-02-01,-2889.5929699295148,0.6959446184960469,seasonal pattern,Watch-list; verify via next SHG meeting
+95,dairy_shg,2026-02-01,-2880.8420103546546,0.6956605755363838,seasonal pattern,Watch-list; verify via next SHG meeting
+67,dairy_shg,2026-05-01,-1569.6556065979228,0.6951298838981322,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+138,kirana_trader,2026-03-01,-3792.882465000607,0.6948515117221106,repeated recent deficits,Watch-list; verify via next SHG meeting
+141,kirana_trader,2026-01-01,-2174.737702471122,0.6944185225130834,seasonal pattern,Watch-list; verify via next SHG meeting
+78,dairy_shg,2026-02-01,-2444.506864748313,0.6942296310675335,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+130,kirana_trader,2026-01-01,-2287.600148186668,0.6931719305841567,rainfall deficit last month,Watch-list; verify via next SHG meeting
+144,kirana_trader,2026-01-01,-2511.929386839088,0.6929836817993364,missed SHG deposits,Watch-list; verify via next SHG meeting
+49,kharif_farmer,2026-04-01,-1892.1641935579694,0.6897829185496587,rainfall deficit last month; missed SHG deposits,Watch-list; verify via next SHG meeting
+173,kirana_trader,2026-05-01,-2657.448242561738,0.6896837813772956,repeated recent deficits,Watch-list; verify via next SHG meeting
+164,kirana_trader,2026-01-01,-2816.0458567529504,0.6863970265892139,missed SHG deposits,Watch-list; verify via next SHG meeting
+91,dairy_shg,2026-02-01,-2570.6018233337572,0.6857227820919437,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+56,kharif_farmer,2026-01-01,-3338.1079697785735,0.6839964516269628,missed SHG deposits,Watch-list; verify via next SHG meeting
+155,kirana_trader,2026-01-01,-2190.9527102046613,0.6838896699964393,seasonal pattern,Watch-list; verify via next SHG meeting
+69,dairy_shg,2026-02-01,-2066.1022322397375,0.68199294496833,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+122,kirana_trader,2026-05-01,-1616.9212724946942,0.6812347852474174,UPI inflows declining; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+167,kirana_trader,2026-06-01,-2601.8051020921666,0.6805582277574371,monsoon input-cost season,Watch-list; verify via next SHG meeting
+156,kirana_trader,2026-01-01,-2665.805239523894,0.6795477134472937,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+161,kirana_trader,2026-05-01,-1556.3972933912214,0.6785076523179446,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+128,kirana_trader,2026-02-01,-3253.164050888951,0.6766111423791851,rainfall deficit last month,Watch-list; verify via next SHG meeting
+91,dairy_shg,2026-03-01,-1755.3158498726643,0.6762475534447879,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+83,dairy_shg,2026-03-01,-1389.9800015214503,0.6762150465029526,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+91,dairy_shg,2026-04-01,-1719.215253861393,0.6761786146038539,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+74,dairy_shg,2026-02-01,-1510.7617139515073,0.6756617327484238,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+83,dairy_shg,2026-04-01,-1609.2689903216774,0.6753717093038267,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+156,kirana_trader,2026-02-01,-2860.3002612239347,0.6745818272795121,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+177,kirana_trader,2026-06-01,-2261.315566102311,0.6741085576967525,missed SHG deposits; repeated recent deficits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+38,kharif_farmer,2026-01-01,-954.778205362643,0.6730468569484908,seasonal pattern,Watch-list; verify via next SHG meeting
+141,kirana_trader,2026-06-01,-1822.8797163006418,0.6723927163817991,monsoon input-cost season,Watch-list; verify via next SHG meeting
+78,dairy_shg,2026-03-01,-2008.7466408420476,0.6719867160549678,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+64,dairy_shg,2026-03-01,-2363.7277166454974,0.6719488270067522,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+79,dairy_shg,2026-02-01,-1342.4991287388198,0.6699712277467857,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+83,dairy_shg,2026-02-01,-1497.2819946882933,0.6698813805310813,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+137,kirana_trader,2026-05-01,-2193.9042480067305,0.6695140619953621,mandi price falling,Watch-list; verify via next SHG meeting
+117,dairy_shg,2026-02-01,-2924.088015586067,0.6687985362901252,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+69,dairy_shg,2026-03-01,-1388.388436841681,0.6667860060871446,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+132,kirana_trader,2026-02-01,-2361.142556169177,0.6656598844988006,missed SHG deposits,Watch-list; verify via next SHG meeting
+162,kirana_trader,2026-01-01,-1978.3778042509002,0.6650397975156557,mandi price falling,Watch-list; verify via next SHG meeting
+163,kirana_trader,2026-02-01,-1703.871439229292,0.6646725210354263,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+99,dairy_shg,2026-02-01,-2919.3896641936267,0.6644542427863979,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+128,kirana_trader,2026-01-01,-2653.716229710558,0.6589625535250494,rainfall deficit last month,Watch-list; verify via next SHG meeting
+155,kirana_trader,2026-06-01,-2086.8253986686864,0.6586674265165711,monsoon input-cost season,Watch-list; verify via next SHG meeting
+72,dairy_shg,2026-03-01,-2046.9354583313718,0.6567190037277005,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+85,dairy_shg,2026-03-01,-1307.9084035098508,0.6563391105297673,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+134,kirana_trader,2026-04-01,-2842.0512078948113,0.6559505405266595,mandi price falling; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+135,kirana_trader,2026-06-01,-2075.2659794237666,0.6551491459518903,missed SHG deposits; monsoon input-cost season,Watch-list; verify via next SHG meeting
+93,dairy_shg,2026-04-01,-1362.2121025262384,0.6549852339790041,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+118,dairy_shg,2026-02-01,-2793.5595602160615,0.6542940225029059,repeated recent deficits,Watch-list; verify via next SHG meeting
+151,kirana_trader,2026-01-01,-2328.671980727144,0.6542264226171323,seasonal pattern,Watch-list; verify via next SHG meeting
+144,kirana_trader,2026-02-01,-1978.4650375161161,0.6517117530558295,missed SHG deposits,Watch-list; verify via next SHG meeting
+122,kirana_trader,2026-01-01,-1674.2778283551474,0.6511343406662145,UPI inflows declining; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+158,kirana_trader,2026-04-01,-1586.2757347188751,0.6508415686300042,seasonal pattern,Watch-list; verify via next SHG meeting
+76,dairy_shg,2026-04-01,-1426.2688041125753,0.649734166031264,missed SHG deposits,Watch-list; verify via next SHG meeting
+138,kirana_trader,2026-05-01,-2059.627468855887,0.6483005051744304,repeated recent deficits,Watch-list; verify via next SHG meeting
+73,dairy_shg,2026-03-01,-1434.4101774819926,0.6458908259594343,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+135,kirana_trader,2026-02-01,-2000.518874366289,0.6442134818175485,missed SHG deposits,Watch-list; verify via next SHG meeting
+109,dairy_shg,2026-03-01,-1382.9949203076153,0.6425070632929382,missed SHG deposits,Watch-list; verify via next SHG meeting
+97,dairy_shg,2026-03-01,-1202.8255347465156,0.6422185544930568,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+166,kirana_trader,2026-02-01,-1923.0231526171171,0.6421507153752585,seasonal pattern,Watch-list; verify via next SHG meeting
+90,dairy_shg,2026-03-01,-1814.7103527511347,0.6420750491172589,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+155,kirana_trader,2026-02-01,-2009.0771859874324,0.6420513223736368,seasonal pattern,Watch-list; verify via next SHG meeting
+96,dairy_shg,2026-03-01,-1336.2063000700064,0.641519362783814,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+97,dairy_shg,2026-04-01,-1256.812959621287,0.640727617703184,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+72,dairy_shg,2026-04-01,-1742.5632910815011,0.6406398667621729,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+131,kirana_trader,2026-06-01,-1974.745327674974,0.6397079512589204,monsoon input-cost season,Watch-list; verify via next SHG meeting
+153,kirana_trader,2026-05-01,-1727.9904327956515,0.639410967052749,missed SHG deposits,Watch-list; verify via next SHG meeting
+165,kirana_trader,2026-01-01,-1899.7973412640747,0.6388187742374956,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+171,kirana_trader,2026-01-01,-1816.7674228114481,0.638697074977658,mandi price falling,Watch-list; verify via next SHG meeting
+163,kirana_trader,2026-03-01,-977.4415290045674,0.6366908698084075,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+170,kirana_trader,2026-03-01,-2380.793600903044,0.6363898714964955,seasonal pattern,Watch-list; verify via next SHG meeting
+177,kirana_trader,2026-03-01,-2000.2642483300308,0.6351276135991043,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+64,dairy_shg,2026-01-01,-1940.1325931150054,0.6347289691750093,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+73,dairy_shg,2026-02-01,-1714.561254458546,0.6320192331729497,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+167,kirana_trader,2026-01-01,-1852.1782786747017,0.6317499773281067,seasonal pattern,Watch-list; verify via next SHG meeting
+150,kirana_trader,2026-02-01,-2191.347497550751,0.6313550496763625,rainfall deficit last month,Watch-list; verify via next SHG meeting
+161,kirana_trader,2026-02-01,-1467.2860868266316,0.6300638956604118,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+136,kirana_trader,2026-04-01,-1878.6819620344204,0.6298356201034438,seasonal pattern,Watch-list; verify via next SHG meeting
+174,kirana_trader,2026-02-01,-1540.2934808273737,0.6282336361833916,missed SHG deposits,Watch-list; verify via next SHG meeting
+117,dairy_shg,2026-03-01,-1615.7861033351398,0.6280109262108841,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+101,dairy_shg,2026-03-01,-1247.3228419253574,0.627901421836679,seasonal pattern,Watch-list; verify via next SHG meeting
+157,kirana_trader,2026-01-01,-2053.251787975184,0.6265662360196043,seasonal pattern,Watch-list; verify via next SHG meeting
+163,kirana_trader,2026-04-01,-1286.3315950696622,0.6238008287538596,rainfall deficit last month; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+165,kirana_trader,2026-04-01,-1591.5045943845878,0.6236915381674288,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+63,dairy_shg,2026-03-01,-1402.2427775334397,0.6179344497144973,missed SHG deposits,Watch-list; verify via next SHG meeting
+154,kirana_trader,2026-01-01,-1591.9958115122909,0.617063788357493,seasonal pattern,Watch-list; verify via next SHG meeting
+122,kirana_trader,2026-03-01,-1140.632654433745,0.6159018370140967,UPI inflows declining; missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+167,kirana_trader,2026-02-01,-1726.6381258407425,0.6149415165299995,seasonal pattern,Watch-list; verify via next SHG meeting
+96,dairy_shg,2026-04-01,-1083.508970000588,0.6139365753479408,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+151,kirana_trader,2026-06-01,-1606.4177625544814,0.6128502848834486,monsoon input-cost season,Watch-list; verify via next SHG meeting
+169,kirana_trader,2026-03-01,-1658.7681020839782,0.6105436642752736,rainfall deficit last month,Watch-list; verify via next SHG meeting
+158,kirana_trader,2026-05-01,-1012.6562279936587,0.6104085763269606,seasonal pattern,Watch-list; verify via next SHG meeting
+158,kirana_trader,2026-01-01,-1086.0807727793926,0.6101292137303673,seasonal pattern,Watch-list; verify via next SHG meeting
+71,dairy_shg,2026-03-01,-1098.2417841210452,0.6091104097270108,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+141,kirana_trader,2026-02-01,-1423.2199301426504,0.6083399991991577,seasonal pattern,Watch-list; verify via next SHG meeting
+123,kirana_trader,2026-06-01,-1789.229238301887,0.6080230384066589,monsoon input-cost season,Watch-list; verify via next SHG meeting
+100,dairy_shg,2026-03-01,-1367.090342675832,0.6079289749276666,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+101,dairy_shg,2026-04-01,-1045.4627960603877,0.60584871542203,seasonal pattern,Watch-list; verify via next SHG meeting
+158,kirana_trader,2026-02-01,-1289.300795902869,0.6053617912475426,seasonal pattern,Watch-list; verify via next SHG meeting
+117,dairy_shg,2026-04-01,-1283.3033087675026,0.6046269111751491,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+93,dairy_shg,2026-03-01,-896.1129715748316,0.6044293197551662,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+69,dairy_shg,2026-04-01,-926.0241042046719,0.604093493772776,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+116,dairy_shg,2026-03-01,-866.2983794969688,0.6031161049656653,missed SHG deposits; repeated recent deficits,Watch-list; verify via next SHG meeting
+124,kirana_trader,2026-06-01,-1444.4795763786997,0.6027929487632547,UPI inflows declining; monsoon input-cost season,Watch-list; verify via next SHG meeting
+136,kirana_trader,2026-03-01,-1817.6613926428884,0.6021913723688516,seasonal pattern,Watch-list; verify via next SHG meeting
+144,kirana_trader,2026-03-01,-1369.9126771140786,0.6017454430053277,missed SHG deposits,Watch-list; verify via next SHG meeting
+146,kirana_trader,2026-05-01,-1249.3420446113823,0.6011310868063209,seasonal pattern,Watch-list; verify via next SHG meeting
