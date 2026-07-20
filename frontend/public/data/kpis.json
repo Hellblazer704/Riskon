@@ -1,0 +1,1 @@
+{"mae": 3393, "mae_naive": 5987, "mae_improvement_pct": 43, "coverage": 0.76, "precision": 0.88, "recall": 0.79, "n_enterprises": 180, "n_flagged": 167, "n_flags": 702, "cohorts": {"kharif_farmer": 60, "dairy_shg": 60, "kirana_trader": 60}}
